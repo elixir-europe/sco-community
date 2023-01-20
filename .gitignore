@@ -1,3 +1,11 @@
+# Big files from analyses
+*.ipynb
+*DS_Store
+**/data
+*.rds
+*.h5
+*.h5ad
+
 # History files
 .Rhistory
 .Rapp.history
