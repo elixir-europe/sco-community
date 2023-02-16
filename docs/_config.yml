@@ -7,17 +7,20 @@ title: ELIXIR SCO Community
 author: Paulo Czarnewski
 
 
+plugins:
+  - jemoji
+
 menu:
-  title: About Us
-  url: about_us
-  title: Training
-  url: traning
-  title: Tools
-  url: tools
-  title: Standards
-  url: standards
-  title: FAQ
-  url: faq
+  - title: About Us
+    url: about_us
+  - title: Training
+    url: traning
+  - title: Tools
+    url: tools
+  - title: Standards
+    url: standards
+  - title: FAQ
+    url: faq
 
 
 
