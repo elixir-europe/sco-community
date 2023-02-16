@@ -4,7 +4,7 @@ theme: minima
 
 # Name of the website
 title: ELIXIR SCO Community
-author: Paulo Czarnewski
+# author: Paulo Czarnewski
 
 
 plugins:
