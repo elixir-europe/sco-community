@@ -1,3 +1,31 @@
 # Build settings
 markdown: kramdown
 theme: minima
+
+# Name of the website
+title: ELIXIR SCO Community
+author: Paulo Czarnewski
+
+
+menu:
+  title: About Us
+  url: about_us
+  title: Training
+  url: traning
+  title: Tools
+  url: tools
+  title: Standards
+  url: standards
+  title: FAQ
+  url: faq
+
+
+
+avatar: "./logos/SCO.png"
+
+defaults:
+  - values:
+    logosnav: true
+
+
+
