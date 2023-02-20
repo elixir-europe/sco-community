@@ -7,8 +7,8 @@ title: ELIXIR SCO Community
 # author: Paulo Czarnewski
 
 
-layouts_dir: ./workshop-common/layouts
-includes_dir: ./workshop-common/includes
+layouts_dir: ./_layouts
+includes_dir: ./_includes
 
 plugins:
   - jemoji
