@@ -1,5 +1,13 @@
-layouts_dir: ./layouts
-includes_dir: ./includes
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Name of the website
+title: ELIXIR SCO Community
+
+# Where things are
+layouts_dir: ./_layouts
+includes_dir: ./_includes
 
 
 defaults:
