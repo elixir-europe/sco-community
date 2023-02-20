@@ -20,7 +20,7 @@
 }
 
 #header-wrapper {
-  height: 108px;
+  height: 93px;
   background: #023452;
 }
 
@@ -37,13 +37,24 @@
 
 
 html {
-  background: #fefefe;
-  scroll-behavior: smooth;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    height: 100%;
+    overflow-y: scroll;
+    background: #fefefe;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-variant-ligatures: none;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility\9;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-variant-ligatures: none;
 }
 
 h1 {
@@ -78,6 +89,25 @@ ul {
 ul ul {
   margin-top: 3px;
   margin-bottom: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+}
+
+
+
+button, input, select, textarea {
+    font-family: 'Lato', Helvetica, Verdana, sans-serif;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover, a:active {
+    outline: 0;
 }
 
 
