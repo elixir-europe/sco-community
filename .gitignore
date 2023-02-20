@@ -6,6 +6,10 @@
 *.h5
 *.h5ad
 
+
+**/.jekyll-cache
+**/_site
+
 # History files
 .Rhistory
 .Rapp.history

@@ -1,14 +1,11 @@
-# Build settings
-markdown: kramdown
-theme: minima
-
-# Name of the website
-title: ELIXIR SCO Community
-# author: Paulo Czarnewski
+layouts_dir: ./layouts
+includes_dir: ./includes
 
 
-layouts_dir: ./_layouts
-includes_dir: ./_includes
+defaults:
+  - values:
+      logosnav: true
+
 
 plugins:
   - jemoji
@@ -28,10 +25,3 @@ menu:
 
 
 avatar: "./logos/SCO.png"
-
-defaults:
-  - values:
-    logosnav: true
-
-
-
