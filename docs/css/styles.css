@@ -36,7 +36,32 @@ audio:not([controls]) {
     top: 18px;
     left: 15px;
   }
+
+  .container {
+    width: 100%;
+    max-width: 1140px;
+  }
+
 }
+
+
+@media screen {
+  .clearfix {
+      zoom: 1;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
+
+
 
 #header {
   position: relative;
@@ -114,10 +139,6 @@ ul ul {
   margin-bottom: 0;
 }
 
-.container {
-  width: 100%;
-  max-width: 1140px;
-}
 
 
 
@@ -137,7 +158,6 @@ a:hover, a:active {
 
 
 
-
 .element-invisible {
   border: 0;
   clip: rect(1px 1px 1px 1px);
@@ -147,15 +167,4 @@ a:hover, a:active {
   padding: 0;
   position: absolute;
   width: 1px;
-}
-
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.clearfix {
-    zoom: 1;
 }
