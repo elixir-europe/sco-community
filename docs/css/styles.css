@@ -35,7 +35,6 @@
 
 
 
-
 html {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
@@ -44,6 +43,7 @@ html {
     overflow-y: scroll;
     background: #fefefe;
     scroll-behavior: smooth;
+    background: #fefefe;
 }
 
 body {

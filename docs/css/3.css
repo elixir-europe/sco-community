@@ -1,0 +1,96 @@
+@page {
+    margin: 2cm;
+}
+
+body {
+    font-size: 11pt;
+}
+
+.sidebar, #breadcrumb, .nav, .field-type-taxonomy-term-reference, ul.links, .feed-icon, .poll .bar, .poll .foreground, .comment-form, #comment-form, .book-navigation, .tabs, .action-links, .pager, .messages, .help, #breadcrumb-wrapper, #tasks, #header-wrapper, #tertiary-content-wrapper, #footer-wrapper, .back-links {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+a[href^="http://"]:after, a[href^="http://"]:visited:after, a[href^="https://"]:after, a[href^="https://"]:visited:after {
+    content: " (" attr(href) ")";
+    word-wrap: break-word;
+    font-size: 90%;
+}
+
+h1 {
+    font-size: 24pt;
+    margin: 0 0 5mm;
+}
+
+h2 {
+    font-size: 18pt;
+    margin: 8mm 0 3mm;
+}
+
+h3 {
+    font-size: 14pt;
+    margin: 0 0 3mm;
+}
+
+ul {
+    margin-top: 0;
+}
+
+ul li {
+    padding-bottom: 3mm;
+}
+
+img {
+    float: left;
+    margin: 4px 20px 10px 0;
+    page-break-inside: avoid;
+}
+
+a img {
+    border: none;
+}
+
+table {
+    margin: 1px;
+    text-align: left;
+    width: 100%;
+}
+
+th {
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+th, td {
+    padding: 5pt 0;
+}
+
+tfoot {
+    font-style: italic;
+}
+
+caption {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tr {
+    page-break-inside: avoid;
+}
+
+.flexrow {
+    overflow: hidden;
+    * overflow:visible;
+    * zoom:1;
+}
