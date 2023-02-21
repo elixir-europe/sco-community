@@ -1,6 +1,13 @@
+
+# github-pages mandatory configuration
+domain: czarnewski.github.io
+url: https://czarnewski.github.io/sco-community
+baseurl: /sco-community
+repository: czarnewski/sco-community
+
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 
 # Name of the website
 title: ELIXIR SCO Community
@@ -21,8 +28,13 @@ plugins:
 menu:
   - title: About Us
     url: about_us
+    submenu:
+      - title: Join Us
+        url: training
+      - title: Contact
+        url: training
   - title: Training
-    url: traning
+    url: training
   - title: Tools
     url: tools
   - title: Standards

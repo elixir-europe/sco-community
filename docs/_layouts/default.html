@@ -8,15 +8,16 @@ logosnav: true
 <html>
   {% include header.html %}
   <body>
-  {% include topnav.html %}
+    <div id="page" class="page">
+      {% include topnav.html %}
 
-  <div class="container z-depth-2 content">
-    <div class="col s12 bread">
-      {{ content }}
+      <div class="container clearfix">
+        <div class="main-content">
+          {{ content }}
+        </div>
+      </div>
+
+      {% include footer.html %}
     </div>
-  </div>
-
-  {% include footer.html %}
-
   </body>
 </html>
