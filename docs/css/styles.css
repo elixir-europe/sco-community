@@ -258,14 +258,14 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility\9;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, sans-serif;
   font-variant-ligatures: none;
 }
 
 
 h1, h2, h3, h4, h5, h6, p {
   color: #3e3e3e;
-  font-family: 'Lato';
+  font-family: Helvetica, sans-serif;
 }
 
 
