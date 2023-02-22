@@ -27,25 +27,44 @@ plugins:
 
 menu:
   - title: ABOUT US
-    url: about_us
+    path: about_us
     submenu:
-      - title: Join Us
+      - title: Submenu 1
         url: training
-      - title: Contact
+      - title: Submenu 2
         url: training
 
   - title: TRAINING
     url: training
+    submenu:
+      - title: Submenu 1
+        url: training
+      - title: Submenu 2
+        url: training
 
   - title: TOOLS
     url: tools
+    submenu:
+      - title: Submenu 1
+        url: training
+      - title: Submenu 2
+        url: training
 
   - title: DATA
     url: data
-    
+    submenu:
+      - title: Submenu 1
+        url: training
+      - title: Submenu 2
+        url: training
+
   - title: FAQ
     url: faq
-
+    submenu:
+      - title: Submenu 1
+        url: training
+      - title: Submenu 2
+        url: training
 
 
 avatar: "./logos/SCO.png"

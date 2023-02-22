@@ -1,1 +1,20 @@
-This is a folder to store website files, documents and functions.
+
+# Title 1
+
+# Title 2
+
+# Title 3
+
+# Title 4
+
+Some text
+
+Some text in **bold**
+
+Some text in *italics*
+
+
+
+``` bash
+git add .
+```

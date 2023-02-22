@@ -1,98 +1,49 @@
-<div id="header-wrapper">
 
-  <!-- <div id="bluebar-wrapper"> -->
-    <!-- <div id="bluebar"></div> -->
-
-    <div id="header-container">
-
-      <!-- LOGOS -->
-      <div id="logo-container">
-        <div id="elixir-logo">
-          <a href="/" class="active">
-            <img src="logos/ELIXIR/ELIXIR.png">
-          </a>
-        </div>
-
-        <div id="sco-logo">
-          <a href="/" class="active">
-            <img src="logos/ELIXIR/sco.png">
-          </a>
-        </div>
-      </div>
-      <!-- END LOGOS -->
+<div id="header-container">
 
 
-      <!-- NAVIGATION MENU -->
-      <div id="nav-container">
-        <ul id="main-nav" class="sf-menu">
-          <li class="sf-with-ul">
-            <a class="menuparent" href="/">
-              ABOUT US
-              <span class="sf-sub-indicator">▾</span>
-            </a>
-            <ul class="sf-hidden">
-              <li class="sf-item">
-                <a class="menuchild" href="/">
-                  WHAT WE DO
-                </a>
-              </li>
-              <li class="sf-item">
-                <a class="menuchild" href="/">
-                  WHO AM I
-                </a>
-              </li>
-              <li class="sf-item">
-                <a class="menuchild" href="/">
-                  ASKUFHASUFHOASIFHOAIS
-                </a>
-              </li>
-              <li class="sf-item">
-                <a class="menuchild" href="/">
-                  WHAT WE DO
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="sf-with-ul">
-            <a class="menuparent" href="/">
-              TRAINING
-              <span class="sf-sub-indicator">▾</span>
-            </a>
-          </li>
-
-          <li class="sf-with-ul">
-            <a class="menuparent" href="/">
-              TOOLS
-              <span class="sf-sub-indicator">▾</span>
-            </a>
-          </li>
-
-
-
-
-
-        </ul>
-
-        <!-- <nav id="main-nav">
-          <div id="nav-wrapper">
-
-          </div>
-        </nav>
- -->
-
-
-      </div>
-      <!-- END NAVIGATION -->
-
+  <!-- LOGOS -->
+  <div id="logo-container">
+    <div id="elixir-logo">
+      <a href="/" class="active">
+        <img src="logos/ELIXIR/ELIXIR.png">
+      </a>
     </div>
 
-  <!-- </div> -->
+    <div id="sco-logo">
+      <a href="/" class="active">
+        <img src="logos/ELIXIR/sco.png">
+      </a>
+    </div>
+  </div>
+  <!-- END LOGOS -->
 
 
 
-
-
+  <!-- NAVIGATION MENU -->
+  <div id="nav-container">
+    <ul id="main-nav" class="sf-menu">
+    {% for m in site.menu %}
+      <li class="sf-with-ul">
+        <a class="menuparent" href="/"> {{ m.title }}
+          {% if m.submenu %}
+            <span class="sf-sub-indicator">▾</span>
+            </a>
+            <ul class="sf-hidden">
+            {% for n in m.submenu %}
+            <li class="sf-item">
+              <a class="menuchild" href="/"> {{ n.title }} </a>
+            </li>
+            {% endfor %}
+            </ul>
+          {% else %}
+            </a>
+          {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <!-- END NAVIGATION -->
 
 
 
