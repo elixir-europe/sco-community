@@ -1,11 +1,13 @@
 
 @import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
 
 
 
 * {
   margin: 0 ;
   padding: 0 ;
+  box-sizing: border-box;
 }
 
 
@@ -80,11 +82,11 @@
 #content-wrapper {
   position: relative;
   min-height: 700px;
-  top: 20px;
+  top: 0px;
   width: 100%;
   max-width: 1100px;
   margin: 0px auto 0px;
-  /* z-index: 600; */
+  z-index: -600;
 }
 
 #tertiary-content-wrapper {
@@ -104,8 +106,60 @@
   width: 100%;
   margin: 0px auto 0px;
   background-color: #023452;
-  /* z-index: 600; */
+  z-index: 600;
 }
+
+
+#content-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin-top: 50px;
+}
+
+#columns-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+  /* background-color:#bbb; */
+}
+
+.right {
+  width: 75%;
+  /* background-color:#aaa; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sf-menu li {
   position: relative;
@@ -194,7 +248,7 @@ img {
 }
 
 html {
-  font-size: 100%;
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5em;
   height: 100%;
@@ -213,39 +267,55 @@ body {
 }
 
 
+h1, h2, h3, h4, h5, h6, p {
+  color: #3e3e3e;
+  font-family: 'Lato';
+}
+
 
 h1 {
   margin: 0 0 1rem;
-  color: #3e3e3e;
-  font-size: 1.8em;
+  font-size: 2em;
+  font-weight: 1000;
 }
 
 h2 {
   margin: 0 0 0.8rem;
-  color: #3e3e3e;
   font-size: 1.6em;
+  font-weight: 1000;
 }
 
 
 h3 {
   margin: 0 0 0.6rem;
   font-size: 1.4em;
+  font-weight: 1000;
 }
 
 
-h4 {
+h4, h5, h6 {
   margin: 0 0 0.4em;
   font-size: 1.2em;
+  font-weight: 1000;
 }
 
 p {
   margin: 0 0 0.4em;
-  color: #3e3e3e;
   font-size: 1em;
+  font-weight: 500;
 }
+
 
 code {
   margin: 0 0 0.4em;
+  font-size: 1em;
   color: #3e3e3e;
-  font-size: 1.5em;
+  font-family: 'JetBrains Mono';
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
