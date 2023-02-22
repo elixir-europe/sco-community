@@ -9,6 +9,9 @@
 
 **/.jekyll-cache
 **/_site
+_site
+Gemfile.lock
+.bundles_cache
 
 # History files
 .Rhistory
