@@ -26,19 +26,23 @@ plugins:
   - jemoji
 
 menu:
-  - title: About Us
+  - title: ABOUT US
     url: about_us
     submenu:
       - title: Join Us
         url: training
       - title: Contact
         url: training
-  - title: Training
+
+  - title: TRAINING
     url: training
-  - title: Tools
+
+  - title: TOOLS
     url: tools
-  - title: Standards
-    url: standards
+
+  - title: DATA
+    url: data
+    
   - title: FAQ
     url: faq
 

@@ -1,75 +1,99 @@
+<div id="header-wrapper">
 
-  <div id="header-wrapper">
-    <div class="container clearfix">
-      <div id="header">
+  <!-- <div id="bluebar-wrapper"> -->
+    <!-- <div id="bluebar"></div> -->
 
+    <div id="header-container">
 
-        <!-- LOGO AND BRANDING -->
-        <div id="branding" class="branding-elements clearfix">
-          <div id="logo">
-            <a href="/" class="active"><img class="site-logo" typeof="foaf:Image" src="https://elixir-europe.org/system/files/white-orange-logo.png" alt="ELIXIR"></a>
-          </div>
-          <div class="element-invisible h-group" id="name-and-slogan">
-            <h1 class="element-invisible" id="site-name"><a href="/" title="Home page" class="active">ELIXIR</a></h1>
-          </div>
+      <!-- LOGOS -->
+      <div id="logo-container">
+        <div id="elixir-logo">
+          <a href="/" class="active">
+            <img src="logos/ELIXIR/ELIXIR.png">
+          </a>
         </div>
-        <!-- END BRANDING -->
 
-
-        <!-- MENU NAVIGATION SECTION -->
-        <div class="region region-header">
-          <div class="region-inner clearfix">
-            <!-- <nav id="block-superfish-1" class="block block-superfish"> -->
-              {% for m in site.menu %}
-                {% if m.submenus %}
-                  <ul id="{{ m.title }}" class="dropdown-content">
-                    {% for n in m.submenus %}
-                      {% if n.divider %}
-                        <li class="divider"></li>
-                      {% endif %}
-                      <li> <a href="{{site.baseurl}}/{{ n.url }}">{{ n.title }}</a></li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              {% endfor %}
-
-
-              <div {% if page.fixednav == true %}class="navbar-fixed"{% endif %}>
-                <nav class="z-depth-0  main {% if page.transparentnav == true %}transparent{% endif %} " role="navigation">
-                  <div class="nav-wrapper">
-                  {% if page.logosnav == true %}<a href="/" class="left navlogo"><img src="{{ site.baseurl }}/workshop-common/assets/img/logo/nbislogo-green.svg" style="height:48px;margin-top:8px;padding:0px;margin-left:8px"></a>{% endif %}
-                    <ul class="right hide-on-med-and-down">
-                    {% for m in site.menu %}
-                      {% if m.submenus %}
-                      <li><a class="dropdown-button" href="{{ site.baseurl }}/{{ m.url }}" data-activates="{{ m.title }}">{{ m.title }}<i class="material-icons right">arrow_drop_down</i></a></li>
-                      {% else %}
-                        <li><a href="{{ site.baseurl }}/{{ m.url }}">{{ m.title }}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                    </ul>
-
-                    <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
-                  </div>
-                </nav>
-              </div>
-
-
-
-
-            <!-- </nav> -->
-          </div>
+        <div id="sco-logo">
+          <a href="/" class="active">
+            <img src="logos/ELIXIR/sco.png">
+          </a>
         </div>
-        <!-- END MENU NAVIGATION SECTION -->
+      </div>
+      <!-- END LOGOS -->
+
+
+      <!-- NAVIGATION MENU -->
+      <div id="nav-container">
+        <ul id="main-nav" class="sf-menu">
+          <li class="sf-with-ul">
+            <a class="menuparent" href="/">
+              ABOUT US
+              <span class="sf-sub-indicator">▾</span>
+            </a>
+            <ul class="sf-hidden">
+              <li class="sf-item">
+                <a class="menuchild" href="/">
+                  WHAT WE DO
+                </a>
+              </li>
+              <li class="sf-item">
+                <a class="menuchild" href="/">
+                  WHO AM I
+                </a>
+              </li>
+              <li class="sf-item">
+                <a class="menuchild" href="/">
+                  ASKUFHASUFHOASIFHOAIS
+                </a>
+              </li>
+              <li class="sf-item">
+                <a class="menuchild" href="/">
+                  WHAT WE DO
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="sf-with-ul">
+            <a class="menuparent" href="/">
+              TRAINING
+              <span class="sf-sub-indicator">▾</span>
+            </a>
+          </li>
+
+          <li class="sf-with-ul">
+            <a class="menuparent" href="/">
+              TOOLS
+              <span class="sf-sub-indicator">▾</span>
+            </a>
+          </li>
 
 
 
 
 
+        </ul>
 
+        <!-- <nav id="main-nav">
+          <div id="nav-wrapper">
 
-
+          </div>
+        </nav>
+ -->
 
 
       </div>
+      <!-- END NAVIGATION -->
+
     </div>
-  </div>
+
+  <!-- </div> -->
+
+
+
+
+
+
+
+
+</div>
