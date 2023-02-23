@@ -40,7 +40,9 @@
             <ul class="sf-hidden">
             {% for n in m.submenu %}
             <li class="sf-item">
-              <a class="menuchild" href="/"> {{ n.title }} </a>
+              <a class="menuchild" href="{{n.url}}">
+                  {{ n.title }}
+              </a>
             </li>
             {% endfor %}
             </ul>

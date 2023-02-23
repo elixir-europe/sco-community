@@ -21,6 +21,7 @@ defaults:
   - values:
       logosnav: true
 
+avatar: "./logos/ELIXIR/SCO.png"
 
 plugins:
   - jemoji
@@ -68,7 +69,7 @@ menu:
         url: training
 
 
-avatar: "./logos/ELIXIR/SCO.png"
+
 
 
 

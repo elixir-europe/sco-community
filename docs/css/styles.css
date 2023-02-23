@@ -94,7 +94,6 @@
   max-width: 1100px;
   max-height: 10000px;
   margin: 0px auto 0px;
-  z-index: -600;
 }
 
 #tertiary-content-wrapper {
@@ -122,7 +121,6 @@
   width: 100%;
   margin: 0px auto 0px;
   background-color: #023452;
-  z-index: 600;
 }
 
 #footer-container {
@@ -175,14 +173,11 @@
   height: 30px;
   float: left;
   border-radius: 5px 5px 0px 0px;
-  /* padding-right: 10px; */
   color: white;
   border: 0px;
   font-size: 1em;
-  /* padding-left: 10px; */
   padding-bottom: 1px;
   list-style-type: none;
-  /* background-color: purple; */
 }
 
 .sf-with-ul:hover {
@@ -196,14 +191,12 @@
 }
 
 .sf-hidden {
-  /* background: blue; */
   display: block;
   width: 1px;
   height: 1px;
 }
 
 .sf-hidden li{
-  /* padding: 0 10px; */
   margin: 0;
   border: 1px solid #cfcfcf;
   border-width: 1px 0 0 0;
@@ -247,7 +240,7 @@ ul.sf-hidden a {
 }
 
 
-article, aside, div, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+article, aside, div, pre, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
 }
 
@@ -319,11 +312,22 @@ p {
 
 
 code {
-  margin: 0 0 0.4em;
-  font-size: 1em;
-  color: #3e3e3e;
   font-family: 'JetBrains Mono';
+  line-height: 0.4em;
+  font-size: 0.8em;
+  /* color: #3e3e3e; */
+  margin: 0px;
+  padding: 0px;
 }
+
+span {
+  line-height: inherit;
+  font-size: inherit;
+  color: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 #tertiary-container a {
   text-decoration: none;
@@ -342,8 +346,38 @@ code {
 
 
 
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
