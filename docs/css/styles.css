@@ -357,6 +357,21 @@ span {
   .column {
     width: 100%;
   }
+
+  #elixir-logo {
+    width: 50px;
+    height: 37px;
+  }
+
+  #sco-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+
+  #eu-logo {
+    display: none;
+  }
 }
 
 
