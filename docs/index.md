@@ -1,3 +1,6 @@
+# Single Cell Omics Community
+
+Identifies and addresses challenges in single-cell and spatial omics.
 
 # Title 1
 

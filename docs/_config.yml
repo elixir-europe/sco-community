@@ -25,6 +25,7 @@ defaults:
 plugins:
   - jemoji
 
+
 menu:
   - title: ABOUT US
     path: about_us
@@ -67,4 +68,69 @@ menu:
         url: training
 
 
-avatar: "./logos/SCO.png"
+avatar: "./logos/ELIXIR/SCO.png"
+
+
+
+countries1:
+  - title: Belgium
+    url: belgium
+  - title: Czech Republic
+    url: czech-republic
+  - title: Denmark
+    url: denmark
+  - title: EMBL-EBI
+    url: embl-ebi
+  - title: Estonia
+    url: estonia
+  - title: Finland
+    url: finland
+  - title: France
+    url: france
+  - title: Germany
+    url: germany
+
+countries2:
+  - title: Greece
+    url: greece
+  - title: Hungary
+    url: hungary
+  - title: Ireland
+    url: ireland
+  - title: Israel
+    url: israel
+  - title: Italy
+    url: italy
+  - title: Luxenbourg
+    url: luxenbourg
+  - title: Norway
+    url: norway
+  - title: Portugal
+    url: portugal
+
+countries3:
+  - title: Slovenia
+    url: slovenia
+  - title: Spain
+    url: spain
+  - title: Sweden
+    url: sweden
+  - title: Switzerland
+    url: switzerland
+  - title: United Kigndom
+    url: uk
+  - title: Cyprus (observer)
+    url: cyprus
+
+
+
+
+
+
+
+
+
+
+
+
+#
