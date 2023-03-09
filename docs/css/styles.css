@@ -85,6 +85,10 @@
   width: auto;
 }
 
+#content-column{
+  height: fit-content;
+  block-size: fit-content;
+}
 
 #content-wrapper {
   position: relative;
@@ -132,7 +136,8 @@
 #content-container {
   position: relative;
   width: 100%;
-  height: 20px;
+  height: fit-content;
+  min-height: 700px;
   margin-top: 50px;
 }
 
@@ -271,7 +276,7 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul, li, ol {
   color: #3e3e3e;
   line-height: 1em;
   font-family: Helvetica, sans-serif;
@@ -279,35 +284,72 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 h1 {
-  margin: 1rem 0 ;
+  margin: 1em 0 0;
   font-size: 2em;
   font-weight: 1000;
 }
 
 h2 {
-  margin: 0.8rem 0;
+  margin: 1em 0 0;
   font-size: 1.6em;
   font-weight: 1000;
 }
 
 
 h3 {
-  margin: 0.6rem 0;
+  margin: 1em 0 0;
   font-size: 1.4em;
   font-weight: 1000;
 }
 
 
 h4, h5, h6 {
-  margin: 0.4rem 0;
+  margin: 1em 0 0;
   font-size: 1.2em;
   font-weight: 1000;
 }
 
 p {
-  margin: 0.4rem 0;
+  margin: 0.5em 0 0;
   font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
   font-weight: 500;
+}
+
+
+#content-column li {
+  margin: 0;
+  line-height: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 500;
+}
+
+#content-column ul {
+  margin: 0;
+  padding-left: 40px;
+}
+
+#content-column a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+.footnotes ol {
+  margin: 0;
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+.footnotes li {
+  margin: 0;
+  line-height: 0.8em;
+}
+.footnotes p {
+  margin: 0;
+  line-height: 0.8em;
 }
 
 

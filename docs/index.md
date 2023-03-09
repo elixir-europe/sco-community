@@ -9,6 +9,7 @@ title: Home
 # Single Cell Omics Community
 
 Identifies and addresses challenges in single-cell and spatial omics.
+[link](pages/events/20230321_SCO_trainer_workshop.html)
 
 ## Title 2
 

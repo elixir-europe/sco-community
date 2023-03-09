@@ -1,6 +1,2 @@
----
-layout: default
-title: Training
-nav_order: 1
-has_children: true
----
+
+Below you can find a list of training materials in single-cell and spatial omics.
