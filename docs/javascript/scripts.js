@@ -4,8 +4,7 @@ var ToC = "" +
   "<ul class='toc'>";
 var newLine, el, title, link;
 
-
-var all = $("#content-column").find("h1, h2, h3, h4, h5, h6");
+var all = $("#content-column").find("h2, h3, h4, h5, h6");
 all.each(function(){
   // docmap.append( this.innerHTML );
   title = $(this).text();

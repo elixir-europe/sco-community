@@ -2,16 +2,15 @@
 transparentnav: false
 fixednav: true
 logosnav: true
-layout: markdown
-group: Training
+layout: default
+group: Home
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
 # TITLE
 
-Below you can find a list of training materials in single-cell and spatial omics.
-
 [contributing]({{site.baseurl}}/pages/about/contributing)
+Identifies and addresses challenges in single-cell and spatial omics.
 
 ## Title 2
 
@@ -28,6 +27,9 @@ Some text
 Some text in **bold**
 
 Some text in *italics*
+
+
+
 
 
 ``` bash

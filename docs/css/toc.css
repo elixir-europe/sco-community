@@ -41,11 +41,11 @@
   list-style-type: none;
 }
 
-.toc-H2 { padding-left: 10px; }
-.toc-H3 { padding-left: 15px; }
-.toc-H4 { padding-left: 20px; }
-.toc-H5 { padding-left: 25px; }
-.toc-H6 { padding-left: 30px; }
+.toc-H2 { padding-left: 15px; }
+.toc-H3 { padding-left: 30px; }
+.toc-H4 { padding-left: 45px; }
+.toc-H5 { padding-left: 60px; }
+.toc-H6 { padding-left: 75px; }
 
 
 

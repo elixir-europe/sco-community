@@ -5,13 +5,13 @@
   <div id="logo-container">
 
     <div id="elixir-logo" style="float: left;">
-      <a href="{{site.baseurl}}" class="active" >
+      <a href="{{site.baseurl}}/index" class="active" >
         <img src="{{site.baseurl}}/logos/ELIXIR/ELIXIR.png">
       </a>
     </div>
 
     <div id="sco-logo" style="float: right;">
-      <a href="{{site.baseurl}}/" class="active">
+      <a href="{{site.baseurl}}//index" class="active">
         <img src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
       </a>
     </div>
@@ -33,14 +33,14 @@
     <ul id="main-nav" class="sf-menu">
     {% for m in site.menu %}
       <li class="sf-with-ul">
-        <a class="menuparent" href="/"> {{ m.title }}
+        <a class="menuparent" href="{{site.baseurl}}/{{ m.url }}"> {{ m.title }}
           {% if m.submenu %}
             <span class="sf-sub-indicator">▾</span>
             </a>
             <ul class="sf-hidden">
             {% for n in m.submenu %}
             <li class="sf-item">
-              <a class="menuchild" href="{{n.url}}">
+              <a class="menuchild" href="{{site.baseurl}}/{{n.url}}">
                   {{ n.title }}
               </a>
             </li>

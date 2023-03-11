@@ -35,40 +35,38 @@ menu:
         url: pages/about/about_us
       - title: Contributing
         url: pages/about/contributing
-      - title: Funding opportunities
-        url: pages/about/contributing
 
   - title: TRAINING
     url: pages/training/index
-    submenu:
-      - title: Submenu 1
-        url: training
-      - title: Submenu 2
-        url: training
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
 
   - title: TOOLS
     url: pages/tools/index
-    submenu:
-      - title: Submenu 1
-        url: training
-      - title: Submenu 2
-        url: training
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
 
   - title: DATA
     url: pages/data/index
-    submenu:
-      - title: Submenu 1
-        url: training
-      - title: Submenu 2
-        url: training
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
 
   - title: NEWS
     url: pages/news/index
     submenu:
       - title: Events
         url: pages/news/events
-      - title: Funding opportunities
-        url: pages/news/
+      # - title: Funding
+      #   url: pages/news/funding
 
 
 

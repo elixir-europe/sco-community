@@ -3,38 +3,7 @@ transparentnav: false
 fixednav: true
 logosnav: true
 layout: default
-title: Home
+group: Home
 ---
 
-# Single Cell Omics Community
-
-Identifies and addresses challenges in single-cell and spatial omics.
-[link](pages/events/20230321_SCO_trainer_workshop.html)
-
-## Title 2
-
-### Title 3
-
-#### Title 4
-
-##### Title 5
-
-###### Title 6
-
-Some text
-
-Some text in **bold**
-
-Some text in *italics*
-
-
-[link](https://www.czarnewski.com)
-
-
-``` bash
-git add .
-for i in 1..10
-do
-  echo $i
-done
-```
+This page should be left blank intentionally, and any text here will be ignored. The purpose is to define the `default.html` layout to be used as the main page instead of the `_layouts/markdown.html` one. In addition, the `_layouts/default.html` layout utilises the `group` parameter to decide which other pages to include. Since this is the **Home** page group, then the `_includes/Home.html` file will be included as the main page.
