@@ -419,31 +419,24 @@ span {
 
 /*Basic structure of slider*/
 .container1{
-    width: 100%;
-    /* position: absolute; */
-    /* transform: translate(-50%,-50%); */
-    /* top: 50%; */
-    /* left: 50%; */
-    height: 351px;
-    overflow: hidden;
-    /* border: 5px solid #ffffff; */
-    /* border-radius: 8px; */
-    /* box-shadow: -1px 5px 15px black; */
-}
-
-.banner {
-    width: 100%;
-    height: 351px;
-    object-fit: fill;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
 }
 
 
 /*Area of images*/
 .wrapper1{
-    width: calc(100%) ;
-    display: flex;
-    animation: slide 16s infinite;
+  display: flex;
+  animation: slide 16s infinite;
 }
+
+.banner {
+  padding: 0;
+  margin: 0;
+}
+
+
 
 /*Animation activated by keyframes*/
 @keyframes slide{
