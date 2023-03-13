@@ -1,0 +1,60 @@
+<div id="header-container">
+
+
+  <!-- LOGOS -->
+  <div id="logo-container">
+
+    <div id="elixir-logo" style="float: left; z-index: 15;">
+      <a href="{{site.baseurl}}/index" class="active" >
+        <img src="{{site.baseurl}}/logos/ELIXIR/ELIXIR.png">
+      </a>
+    </div>
+
+    <div id="sco-logo" style="float: right; z-index: 15;">
+      <a href="{{site.baseurl}}/index" class="active">
+        <img src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
+      </a>
+    </div>
+
+
+    <!-- <div id="sco-logo">
+      <a href="/" class="active">
+        <img src="logos/ELIXIR/SCO.png">
+      </a>
+    </div> -->
+
+  </div>
+  <!-- END LOGOS -->
+
+
+
+  <!-- NAVIGATION MENU -->
+  <div id="nav-container">
+    <ul id="main-nav" class="sf-menu">
+    {% for m in site.menu %}
+      <li class="sf-with-ul">
+        <a class="menuparent" href="{{site.baseurl}}/{{ m.url }}"> {{ m.title }}
+          {% if m.submenu %}
+            <span class="sf-sub-indicator">▾</span>
+            </a>
+            <ul class="sf-hidden">
+            {% for n in m.submenu %}
+            <li class="sf-item">
+              <a class="menuchild" href="{{site.baseurl}}/{{n.url}}">
+                  {{ n.title }}
+              </a>
+            </li>
+            {% endfor %}
+            </ul>
+          {% else %}
+            </a>
+          {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <!-- END NAVIGATION -->
+
+
+
+</div>

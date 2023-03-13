@@ -1,34 +1,139 @@
+
+# github-pages mandatory configuration
+domain: czarnewski.github.io
+url: https://czarnewski.github.io/sco-community
+baseurl: /sco-community
+repository: czarnewski/sco-community
+
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 
 # Name of the website
 title: ELIXIR SCO Community
-# author: Paulo Czarnewski
 
+# Where things are
+layouts_dir: ./_layouts
+includes_dir: ./_includes
+
+
+defaults:
+  - values:
+      logosnav: true
+
+avatar: "./logos/ELIXIR/SCO.png"
 
 plugins:
   - jemoji
 
+
 menu:
-  - title: About Us
-    url: about_us
-  - title: Training
-    url: traning
-  - title: Tools
-    url: tools
-  - title: Standards
-    url: standards
-  - title: FAQ
-    url: faq
+  - title: ABOUT
+    path: pages/about/about_us
+    submenu:
+      - title: About
+        url: pages/about/about_us
+      - title: Join us
+        url: pages/about/join_us
+      - title: Contributing
+        url: pages/about/contributing
+
+  - title: TRAINING
+    url: pages/training/index
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
+
+  - title: TOOLS
+    url: pages/tools/index
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
+
+  - title: DATA
+    url: pages/data/index
+    # submenu:
+    #   - title: Submenu 1
+    #     url: training
+    #   - title: Submenu 2
+    #     url: training
+
+  - title: NEWS
+    url: pages/news/index
+    submenu:
+      - title: Events
+        url: pages/news/events
+      # - title: Funding
+      #   url: pages/news/funding
 
 
 
-avatar: "./logos/SCO.png"
-
-defaults:
-  - values:
-    logosnav: true
 
 
 
+countries1:
+  - title: Belgium
+    url: belgium
+  - title: Czech Republic
+    url: czech-republic
+  - title: Denmark
+    url: denmark
+  - title: EMBL-EBI
+    url: embl-ebi
+  - title: Estonia
+    url: estonia
+  - title: Finland
+    url: finland
+  - title: France
+    url: france
+  - title: Germany
+    url: germany
+
+countries2:
+  - title: Greece
+    url: greece
+  - title: Hungary
+    url: hungary
+  - title: Ireland
+    url: ireland
+  - title: Israel
+    url: israel
+  - title: Italy
+    url: italy
+  - title: Luxenbourg
+    url: luxenbourg
+  - title: Norway
+    url: norway
+  - title: Portugal
+    url: portugal
+
+countries3:
+  - title: Slovenia
+    url: slovenia
+  - title: Spain
+    url: spain
+  - title: Sweden
+    url: sweden
+  - title: Switzerland
+    url: switzerland
+  - title: United Kigndom
+    url: uk
+  - title: Cyprus (observer)
+    url: cyprus
+
+
+
+
+
+
+
+
+
+
+
+
+#

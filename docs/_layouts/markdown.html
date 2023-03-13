@@ -1,0 +1,31 @@
+---
+transparentnav: false
+fixednav: true
+logosnav: true
+---
+
+<!DOCTYPE html>
+<html>
+  {% include header.html %}
+  <body>
+    <!-- <div id="page-wrapper"> -->
+
+      <div id="header-wrapper">
+        {% include topnav.html %}
+      </div>
+
+      <div id="content-wrapper">
+        {% include markdown_content.html %}
+      </div>
+
+      <div id="tertiary-content-wrapper">
+        {% include tertiary_content.html %}
+      </div>
+
+      <div id="footer-wrapper">
+        {% include footer.html %}
+      </div>
+
+    <!-- </div> -->
+  </body>
+</html>

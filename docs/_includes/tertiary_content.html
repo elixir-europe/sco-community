@@ -1,0 +1,58 @@
+<div id="tertiary-container">
+
+
+  <div class="row">
+
+    <div class="column" style="width: 18%;">
+      <div id="sco-logo" style="float: left;">
+        <a href="{{site.baseurl}}/" class="active">
+          <img src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
+        </a>
+      </div>
+
+    </div>
+
+    <div class="column" style="width: 62%;">
+      <p style="color: white; line-height: 1.2em;">
+      ELIXIR Nodes
+      <p>
+      <hr>
+
+      <div class="row">
+
+        <div class="column" style="width: 33%;">
+          {% for m in site.countries1 %}
+            <a href="https://www.elixir-europe.org/about/elixir-{{ m.url }}"><p class="footer-text"> {{ m.title }} </p></a>
+          {% endfor %}
+        </div>
+
+        <div class="column" style="width: 33%;">
+          {% for m in site.countries2 %}
+            <a href="https://www.elixir-europe.org/about/elixir-{{ m.url }}"><p class="footer-text"> {{ m.title }} </p></a>
+          {% endfor %}
+        </div>
+
+        <div class="column" style="width: 33%;">
+          {% for m in site.countries3 %}
+            <a href="https://www.elixir-europe.org/about/elixir-{{ m.url }}"><p class="footer-text"> {{ m.title }} </p></a>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="column " style="width: 20%;">
+      <div id="elixir-logo" style="float: right;">
+        <a href="{{site.baseurl}}/" class="active">
+          <img src="{{site.baseurl}}/logos/ELIXIR/ELIXIR.png">
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+</div>
