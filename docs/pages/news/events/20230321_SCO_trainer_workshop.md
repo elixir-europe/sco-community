@@ -11,7 +11,7 @@ group: Events
 
 **21-23 March 2023, Geneva, Switzerland**
 
-Registration deadline: *12 March 2023*
+Registration deadline: **12 March 2023**
 
 Registration: [GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLScSHDuA1oxC6rigImP7JL83pgGDfg92uFBS5kU1N6VVSGznuA/viewform)
 
@@ -27,6 +27,13 @@ The aim of this workshop is to get SCO data analysis trainers, members of the co
 This workshop abides by the ELIXIR Code of Conduct. Attendees are required to abide by the same code. The ELIXIR Implementation Study SCONE will cover coffee breaks and lunches. GOBLET will fund the dinner.  Each participant will take care of his/her own travel expenses with his/her own SCONE budget, if any.
 
 <br>
+
+
+
+
+
+
+
 
 ## Programme
 
@@ -55,19 +62,22 @@ This workshop abides by the ELIXIR Code of Conduct. Attendees are required to ab
 
 <br>
 
+
+
+
+
+
+
+
 ## Venue
 
 The workshop will take place in Geneva, in  the [**Centre Médical Universitaire (CMU)**](https://www.unige.ch/presse/plans/cmu), room [B04.1522a](https://www.unige.ch/medecine/files/4714/7262/4613/CMU_A-B_4eme_v22.pdf), in the B building, 4th floor. More details and maps on how to access the CMU and the B building are in this [link](https://www.unige.ch/medecine/en/contacts-acces/contact/).
-
-<br>
-
-## Online participation
 
 For those joining online, please use the following [zoom link](https://us02web.zoom.us/j/86470269373?pwd=WGFILzU4d3JBNk5SazJaeVpYcEZKQT09).
 
 <br>
 
-## Travel information
+### Travel information
 
 The [Geneva airport](https://www.gva.ch/en/) (GVA) has many direct flights from European cities. How to reach the CMU building:
 - From the airport, take bus **#5** and get down at Genève Hôpital (35’ ride). Otherwise, take  the train to the Geneva central station Cornavin (6’, any train from the Airport stops in the Geneva central train station).
@@ -75,7 +85,7 @@ The [Geneva airport](https://www.gva.ch/en/) (GVA) has many direct flights from 
 
 <br>
 
-## Accommodation
+### Accommodation
 
 Here is a non exhaustive list of hotels where to stay in Geneva that are close to the CMU:
 - Hotel Adriatica (The closest from CMU (2’ walk))
@@ -86,6 +96,24 @@ Here is a non exhaustive list of hotels where to stay in Geneva that are close t
 <br>
 
 
+
+
+
+
+
+
+## Contributing Institutions
+
+<br>
+
+<img style="height: 50px; width: auto; padding: 0px 5px" alt="asjhdvasyfaisy" src="{{site.baseurl}}/logos/ELIXIR/ELIXIR1.png">
+<img style="height: 50px; width: auto; padding: 0px 10px" src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
+<img style="height: 50px; width: auto; padding: 2px 10px" src="{{site.baseurl}}/logos/ELIXIR/GOBLET.png">
+
+
+<br>
+
+<br>
 
 **Footnotes**
 
