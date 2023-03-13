@@ -1,7 +1,7 @@
 # Big files from analyses
 *.ipynb
 *DS_Store
-**/data
+# **/data
 *.rds
 *.h5
 *.h5ad

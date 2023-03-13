@@ -31,8 +31,10 @@ menu:
   - title: ABOUT
     path: pages/about/about_us
     submenu:
-      - title: About us
+      - title: About
         url: pages/about/about_us
+      - title: Join us
+        url: pages/about/join_us
       - title: Contributing
         url: pages/about/contributing
 

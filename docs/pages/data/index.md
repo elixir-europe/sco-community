@@ -3,13 +3,13 @@ transparentnav: false
 fixednav: true
 logosnav: true
 layout: markdown
-group: News
+group: Data
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
 # TITLE
 
-Below you can find a list of Events from our community in single-cell and spatial omics.
+Below you can find a list of Datasets in single-cell and spatial omics.
 
 [contributing]({{site.baseurl}}/pages/about/contributing)
 

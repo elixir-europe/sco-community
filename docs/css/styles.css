@@ -220,7 +220,7 @@
   background: #ebebeb;
   color: #333333;
   border-radius: 0px;
-  width: 300px;
+  width: 200px;
   float: left;
   clear: left;
   display:none;
@@ -249,6 +249,7 @@ ul.sf-hidden a {
   text-decoration: none;
   height: 30px;
   line-height: 30px;
+  text-transform: capitalize;
   color: inherit;
 }
 
