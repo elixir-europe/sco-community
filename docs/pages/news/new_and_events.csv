@@ -1,0 +1,2 @@
+"TITLE_MAX60CHAR","TYPE","GROUP","DATE_START_YYYYMMDD","DATE_END_YYYYMMDD","URL","DESCRIPTION_MAX20WORDS"
+"Workshop for Single-Cell Omics data analysis trainers","Event","Training","20230321","20230322","{{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop","A workshop for SCO data analysis trainers for exchanging ideas about best practices, methods, computational environments, datasets and standards."

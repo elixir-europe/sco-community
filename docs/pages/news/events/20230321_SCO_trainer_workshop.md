@@ -9,7 +9,7 @@ group: Events
 
 # Workshop for Single-Cell Omics data analysis trainers
 
-**21-23 March 2023, Geneva, Switzerland**
+**21-22 March 2023, Geneva, Switzerland**
 
 Registration deadline: **12 March 2023**
 
@@ -57,8 +57,6 @@ This workshop abides by the ELIXIR Code of Conduct. Attendees are required to ab
 | 11:00 - 12:30 | **Session #4: Teaching Practices[^3]** |
 | 12:30         | Wrap up and closing remarks |
 | 13:00 - 14:00 | *Lunch and departure* |
-
-
 
 <br>
 
