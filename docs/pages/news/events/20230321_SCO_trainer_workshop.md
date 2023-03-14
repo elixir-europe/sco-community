@@ -58,8 +58,6 @@ This workshop abides by the ELIXIR Code of Conduct. Attendees are required to ab
 | 12:30         | Wrap up and closing remarks |
 | 13:00 - 14:00 | *Lunch and departure* |
 
-
-
 <br>
 
 
