@@ -9,7 +9,7 @@ group: Events
 
 # Workshop for Single-Cell Omics data analysis trainers
 
-**21-23 March 2023, Geneva, Switzerland**
+**21-22 March 2023, Geneva, Switzerland**
 
 Registration deadline: **12 March 2023**
 
