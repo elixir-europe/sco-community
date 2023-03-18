@@ -300,14 +300,14 @@ h1 {
   color: #023452;
   margin: 1em 0 0.5em;
   font-size: 2em;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
 h2 {
   color: #333352;
   margin: 1em 0 0.5em;
   font-size: 1.6em;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
 
@@ -315,7 +315,7 @@ h3 {
   color: #666652;
   margin: 1em 0 0.5em;
   font-size: 1.4em;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
 
@@ -323,7 +323,7 @@ h4, h5, h6 {
   color: #999999;
   margin: 1em 0 0.5em;
   font-size: 1.2em;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
 p {
@@ -502,14 +502,46 @@ span {
 }
 
 
+#news_link p {
+  margin: 0em;
+}
+
+#news_link:hover p {
+  color: #f47d21;
+}
 
 
+#apply_button, #button {
+  background-color: #cccccc;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 0px;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#apply_button.active_button,
+#button.active_button {
+  background-color: #023452;
+  cursor: pointer;
+  border: 0;
+}
+
+#apply_button.active_button:hover,
+#button.active_button:hover {
+  background-color: #f47d21;
+  cursor: pointer;
+  color: white;
+}
 
 
-
-
-
-
+.inline_logo {
+  height: 50px;
+  width: auto;
+  padding: 0px 5px;
+}
 
 
 
