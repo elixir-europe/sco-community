@@ -3,6 +3,8 @@ transparentnav: false
 fixednav: true
 logosnav: true
 layout: markdown
+application_open: 2023-01-20
+application_close: 2023-03-12
 group: Events
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
@@ -11,10 +13,9 @@ group: Events
 
 **21-22 March 2023, Geneva, Switzerland**
 
-Registration deadline: **12 March 2023**
+Registration: *20 Jan - 12 March 2023*
 
-Registration: [GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLScSHDuA1oxC6rigImP7JL83pgGDfg92uFBS5kU1N6VVSGznuA/viewform)
-
+<button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>
 
 <br>
 
@@ -104,12 +105,10 @@ Here is a non exhaustive list of hotels where to stay in Geneva that are close t
 
 <br>
 
-<img style="height: 50px; width: auto; padding: 0px 5px" alt="asjhdvasyfaisy" src="{{site.baseurl}}/logos/ELIXIR/ELIXIR1.png">
-<img style="height: 50px; width: auto; padding: 0px 10px" src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
-<img style="height: 50px; width: auto; padding: 2px 10px" src="{{site.baseurl}}/logos/ELIXIR/GOBLET.png">
+<img class="inline_logo" src="{{site.baseurl}}/logos/ELIXIR/ELIXIR1.png">
+<img class="inline_logo" src="{{site.baseurl}}/logos/ELIXIR/SCO.png">
+<img class="inline_logo" src="{{site.baseurl}}/logos/ELIXIR/GOBLET.png">
 
-
-<br>
 
 <br>
 
