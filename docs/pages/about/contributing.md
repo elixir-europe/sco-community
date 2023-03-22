@@ -9,8 +9,34 @@ group: About
 
 # Contributing to the website
 
-This ELIXIR SCO Community website is hosted by Github and follows the Github Pages using Jekyll.
-With a few exceptions, most pages can be created using simple markdown text, just like this page itself. You can download this page markdown and edit it locally via `git clone` or directly on Github.
+This ELIXIR SCO Community website is hosted by Github and follows the Github Pages using Jekyll. With a few exceptions, most pages can be created using simple markdown text, just like this page itself. You can download this page markdown and edit it locally via `git clone` or directly on Github.
+
+## Contributing on GitHub site
+
+Virtually all pages can be edited directly on the [SCO GH-repo](https://www.github.io/elixir-europe/sco-community) for the SCO repository. You simply just need to go to the file you want to modify and click on "Edit". This is particularly useful in case of editing small bugs or editing a Markdown file from an Event, for example.
+
+
+## SCO local server via Docker
+
+The easiest way to contribute with hands-on designs is to:
+
+1. Do a fork on the top right corner from the [SCO GH-repo](https://www.github.io/elixir-europe/sco-community)
+2. `git clone` to your own machine
+3. Then, go to the `docs` folder and run the `bash jekyll.sh`
+4. The script will pull the Docker container and create a version of the website locally.
+5. Now open your browser and go to `http://0.0.0.0/4000` and voilà!
+
+Once you are happy with the changes made, you can now create a **pull request** (PR) to the main page like so:
+
+1. Start by add you changes with `git add .`.
+2. Commit them with `git commit -m 'SHORT MESSAGE OF WHAT YOU CHANGED'`.
+3. Do `git push` to upload your modifications to Github.
+4. Then on your Github page will appear a link to `contribute to the main repository via pull request`.
+5. Add a short message of your alterations (it can be the same as in `"SHORT MESSAGE OF WHAT YOU CHANGED"`) and click on the green button to create the pull request.
+
+<br>
+
+***
 
 ## Website templates
 
@@ -20,6 +46,8 @@ There are 2 major HTML layout files can be found in the `docs/_layouts` folder:
 - `default.html`: this layout is filled with boxes and links to the different webpage functionalities. The main webpage uses this layout.
 - `markdown.html`: this layout is formatted to display markdown text, such as events news and other information in text format.
 
+<br>
+
 ### HTML sections
 
 In addition to the main layouts, the source files used by the webpage sections are found in these four files:
@@ -28,11 +56,13 @@ In addition to the main layouts, the source files used by the webpage sections a
 - `tertiary_content.html`
 - `footer.html`: this is the last visible dark blue section at the bottom of the page, and it is used to display information about the webpage itself and load-and-run additional scripts that need to be executed after the content is loaded (eg. the script to create the side table of contents).
 
-
+<br>
 
 ### CSS styles
 
 All website scripts and custom functions are found in the `docs/css` folder.
+
+<br>
 
 ### JS functions
 
@@ -40,58 +70,107 @@ All website scripts and custom functions are found in the `docs/javascript` fold
 
 <br>
 
+***
+
 ## Markdown tips
 
-When creating a markdown file, please make sure to include this header in the beginning so it can be rendered with the correct template `markdown` and with the correct group (one of the following: About, News, Data, Tools, Training). For example:
+### YAML header
 
-```
+When creating a markdown file, please make sure to include this header in the beginning so it can be rendered with the correct template `markdown` and with the correct group (one of the following: About, News, Events, Data, Tools, Training). For example:
+
+```YAML
 ---
 transparentnav: false
 fixednav: true
 logosnav: true
 layout: markdown
-group: About
+group: Events
 ---
-
-<p style="color: #f47d21">{{ page.group }}</p>
-
-# YOUR PAGE TITLE
-
-[...]
 ```
 
-All other markdown tools and formatting options will be rendered as usual, and the table of contents (TOC) sidebar will be updated automatically.
+<br>
 
+### Time-restricted Application
+
+In case of event pages that require a time-sensitive button for application, that can be achieved by setting 2 things. First, make sure that in you YAML header you include the `application_open` and `application_close` values to a date in "YYYY-MM-DD" format.
+
+```YAML
+---
+transparentnav: false
+fixednav: true
+logosnav: true
+layout: markdown
+application_open: 2023-01-20
+application_close: 2023-03-12
+group: Events
+---
 ```
-# Single Cell Omics Community (THIS TITLE IS NOT LISTED IN THE TOC)
 
-Identifies and addresses challenges in single-cell and spatial omics.
-[link](pages/news/events/20230321_SCO_trainer_workshop.html)
+Second, you can now add the following code just below your event header to add an automatic button that will become active or inactive when application has passed.
 
+```MD
+<button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>
+```
+
+<br>
+
+###
+
+<br>
+
+***
+
+### Table of Contents
+
+All other markdown tools and formatting options will be rendered as usual, and the table of contents (TOC) sidebar will be updated automatically using a javascript. So please
+
+```MD
+
+<p style="color: #f47d21">{{ page.group }}</p> (IGNORED THE TOC)
+
+# Title 1 (IGNORED THE TOC)
 ## Title 2
-
 ### Title 3
-
 #### Title 4
-
 ##### Title 5
-
 ###### Title 6
 
-Some text
+<br> //To add  some extra blank line
 
-Some text in **bold**
-
-Some text in *italics*
-
-
-[link](https://www.czarnewski.com)
-
-
-  git add .
-  for i in 1..10
-  do
-    echo $i
-  done
-
+Some text in **bold** and *italics* and as a [clickable link](https://www.czarnewski.com).
 ```
+
+The line `<p style="color: #f47d21">{{ page.group }}</p>` automatically adds the page group from the [YAML header](### YAML header)
+
+<br>
+
+### Code highlighting
+
+Syntax highlighting styles stolen from `github-pages-leap-day` theme generated by [rouge](http://rouge.jneen.net/), original base16 by [Chris Kempson](https://github.com/chriskempson/base16).
+
+```BASH
+git add .
+for i in 1..10
+do
+  echo $i
+done
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

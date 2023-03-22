@@ -21,5 +21,5 @@ group: About
 ## Application Form
 
 <iframe id="frame1" src="{{ page.form }}"
-  style="display: inline-block; width:100%; min-height:200px; border:0; margin:0;">  Alternative Content
+  style="display: inline-block; width:100%; min-height:1000px; border:0; margin:0;">  Alternative Content
 </iframe>
