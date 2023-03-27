@@ -6,7 +6,7 @@ Welcome to our SCO community's github repository! Here, we organise and orchestr
 
 ## News and Upcoming Events
 
-You can list News and Upcoming events to the this file: [`/docs/pages/news/new_and_events.csv`](/docs/news/new_and_events.csv). There, you should simply add a new line and fill the information for all columns.
+You can list News and Upcoming events to the this file: [`/docs/pages/news/new_and_events.csv`](/docs/pages/news/new_and_events.csv). There, you should simply add a new line and fill the information for all columns.
 
 If you would like to create an SCO Community event, you need to do these ### steps:
   1. Create a markdown file in this folder: [`/docs/pages/news/events`](/docs/pages/news/events). Please use this naming convention: "YYYYMMDD_Event_Title.md", where "YYYYMMDD" is the 1st day of the event incase of multiple days.
