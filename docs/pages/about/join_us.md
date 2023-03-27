@@ -8,33 +8,17 @@ group: About
 
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# TITLE
 
-Below you can find a list of Datasets in single-cell and spatial omics.
+## Join as Community member
 
-[contributing]({{site.baseurl}}/pages/about/contributing)
+BRIEF TEXT DESCRIPTION
 
-## Title 2
-
-### Title 3
-
-#### Title 4
-
-##### Title 5
-
-###### Title 6
-
-Some text
-
-Some text in **bold**
-
-Some text in *italics*
+LIST OF BENEFITS FOR JOINING THE COMMUNITY
+- A
+- B
+- C
 
 
-``` bash
-git add .
-for i in 1..10
-do
-  echo $i
-done
-```
+<button id="button" class="active_button" onclick="window.open('https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3AUser+Communities%3ASingle-Cell-Omics&targetexisting=https%3A//www.elixir-europe.org/alreadyregistered&targetnew=https%3A//www.elixir-europe.org/registration-successful', '_blank').focus()">Join the SCO Community ▸</button>
+
+<br>
