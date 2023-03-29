@@ -7,33 +7,9 @@ group: Data
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# TITLE
+# Data Standardisation and Interoperability
 
-Below you can find a list of Datasets in single-cell and spatial omics.
+Several standards exist in the field of Single-Cell Omics (e.g. FASTQ, FAST5, BAM, CRAM), while a few processed data formats are starting to converge (e.g. tab-separated files, AnnData, HDF5, loom, SingleCellExperiment, Seurat, scverse). However, many of these have had to change in order to adapt to new technological advances that rendered previous formats inadequate.
 
-[contributing]({{site.baseurl}}/pages/about/contributing)
-
-## Title 2
-
-### Title 3
-
-#### Title 4
-
-##### Title 5
-
-###### Title 6
-
-Some text
-
-Some text in **bold**
-
-Some text in *italics*
-
-
-``` bash
-git add .
-for i in 1..10
-do
-  echo $i
-done
-```
+- We will focus on best practices for FAIRification in the SCO Community, building upon establishing and promoting data and metadata standards. This will be strongly coordinated with the Human Cell Atlas Data Coordination Platform.
+- To effectively address shortfalls in current data/metadata standard paradigms, we will work towards monitoring emerging technologies and bodies and communicate these guidelines to them. We will also help incorporate new experimental concepts into these existing guidelines. Particular focus will be on spatial gene expression, as this is already showing signs of widespread adoption.
