@@ -7,33 +7,9 @@ group: Training
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# TITLE
+# Training in Single-Cell and Spatial Omics
 
-Below you can find a list of training materials in single-cell and spatial omics.
-
-[contributing]({{site.baseurl}}/pages/about/contributing)
-
-## Title 2
-
-### Title 3
-
-#### Title 4
-
-##### Title 5
-
-###### Title 6
-
-Some text
-
-Some text in **bold**
-
-Some text in *italics*
-
-
-``` bash
-git add .
-for i in 1..10
-do
-  echo $i
-done
-```
+- We will connect existing materials to compile a comprehensive collection of training materials, datasets and guidelines on how to teach for trainers and learners.
+- We will adopt both top down and bottom up approaches via:
+Trainer the Trainer (TtT) workshops for exchanging ideas about best practices, methods and datasets, and offering advance training courses and compiling video catalogue of training material to enable self-study and asynchronous learning for researchers.
+- In the long term we aim to utilise ELIXIR TeSS to establish a well-curated ELIXIR SCO training portal, listing national and international bodies, web resources and upcoming training events.
