@@ -360,19 +360,43 @@ th {
 
 #content-column ul {
   margin: 0;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 #content-column ol {
   margin: 0;
-  padding-left: 40px;
+  padding-left: 25px;
 }
+
+
+
+
+
+
+/* ################# */
+/* ###   LINKS   ### */
+/* ################# */
 
 #content-column a {
-  text-decoration: none;
-  color: blue;
+  /* text-decoration: none; */
+  text-decoration: underline;
+  color: #060080;
 }
 
+/* #content-column p > a:after {
+  content: '⇗';
+}
+
+#content-column li > a:after {
+  content: '⇗';
+} */
+
+
+
+
+/* ##################################### */
+/* ###   FOOTNOTES AND REFERRENCES   ### */
+/* ##################################### */
 
 .footnotes ol {
   margin: 0;
@@ -388,6 +412,13 @@ th {
   line-height: 0.8em;
 }
 
+
+
+
+
+/* ######################## */
+/* ###   CODE STYLING   ### */
+/* ######################## */
 
 code {
   font-family: 'JetBrains Mono';
@@ -412,7 +443,6 @@ a > code {
   padding: 1px 8px;
   background-color: #EDEEF7;
 }
-
 
 .highlight > code {
   padding: 0px;
@@ -505,7 +535,9 @@ span {
 
 
 
-
+/* ############################## */
+/* ###   SCREEN ADJUSTMENTS   ### */
+/* ############################## */
 
 @media screen and (max-width: 600px) {
   .column {

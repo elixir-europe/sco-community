@@ -28,6 +28,8 @@ The easiest way to contribute with hands-on designs is to:
 4. The script will pull the Docker container and create a version of the website locally.
 5. Now open your browser and go to `http://0.0.0.0/4000` and voilà!
 
+<br>
+
 Once you are happy with the changes made, you can now create a **pull request** (PR) to the main page like so:
 
 1. Start by add you changes with `git add .`.
@@ -46,15 +48,20 @@ Once you are happy with the changes made, you can now create a **pull request** 
 ### About, Training, Tools, Data and News sections
 
 In these page sections, you can add information and lists of resources:
-  - About: [`/docs/pages/about/index.md`](/docs/pages/about/index.md)
+  - **About:**
+    - [/docs/pages/about/index.md](/docs/pages/about/index.md)
     - This section is designed to host information about the SCO community itself, how to get involved, how to contribute and additional funding opportunities, either nationally or internationally, including i.e. ELIXIR staff-exchange programme.
-  - Training: [`/docs/pages/training/index.md`](/docs/pages/training/index.md)
+  - **Training:**
+    - [/docs/pages/training/index.md](/docs/pages/training/index.md)
     - This section contains information about the training materials and resources on SCO. Here, we should include a section of news and events related to training, such as upcoming courses and news regarding training. Also, learning paths and training gaps.
-  - Tools: [`/docs/pages/tools/index.md`](/docs/pages/tools/index.md)
+  - **Tools:**
+    - [/docs/pages/tools/index.md](/docs/pages/tools/index.md)
     - This section will provide list of papers in tool benchmarking, tool overview, some general recommendations and resources that can be used to test and deploy analysis workflows in SCO. It will also contain links to events and news, such as workshops and hackathons.
-  - Data: [`/docs/pages/data/index.md`](/docs/pages/data/index.md)
+  - **Data:**
+    - [/docs/pages/data/index.md](/docs/pages/data/index.md)
     - This section hosts information about SCO data, including database recommendations for the different omics, data curation guidelines, annotation tools (e.g. UBERON) and help materials to achieve interoperability. News and events related to Data will also be highlighted here.
-  - News: [`/docs/pages/news/index.md`](/docs/pages/news/index.md)
+  - **News:**
+    - [/docs/pages/news/index.md](/docs/pages/news/index.md)
     - This section engulfs all News and Events related to SCO communities, including 3rd party events (i.e. HCA GM, ELIXIR AHM, etc) and focused events.
 
 <br>
@@ -74,7 +81,6 @@ If you would like to create an SCO Community event, you need to do these ### ste
     - Footnotes/References.
   3. With your Markdown description set, you can add the summary information to the `/docs/news/new_and_events.csv` file.
 
-
 <br>
 
 ***
@@ -86,11 +92,11 @@ If you would like to create an SCO Community event, you need to do these ### ste
 There are 2 major HTML layout files can be found in the `docs/_layouts` folder:
 - `default.html`: this layout is filled with boxes and links to the different webpage functionalities. The main webpage uses this layout.
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/main.svg)
 
 - `markdown.html`: this layout is formatted to display markdown text, such as events news and other information in text format.
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/markdown.svg)
 
 <br>
 
@@ -100,19 +106,19 @@ In addition to the main layouts, the source files used by the webpage sections a
 
 `header.html`: this is a invisible section, used to load the CSS styles, scripts and other functions.
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/header.svg)
 
 `topnav.html`:
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/navbar.svg)
 
 `tertiary_content.html`
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/thirdparty.svg)
 
 `footer.html`: this is the last visible dark blue section at the bottom of the page, and it is used to display information about the webpage itself and load-and-run additional scripts that need to be executed after the content is loaded (eg. the script to create the side table of contents).
 
-TODO: ADD IMAGE HERE
+![]({{site.baseurl}}/images/footer.svg)
 
 <br>
 
@@ -166,8 +172,8 @@ group: Events
 
 Second, you can now add the following code just below your event header to add an automatic button that will become active or inactive when application has passed.
 
-```MD
-<button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>
+```
+`<button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>`
 ```
 
 This HTML above use those variables `application_open` and `application_close` to decide when to activate and when to close the applications, simply by re-styling the button.
