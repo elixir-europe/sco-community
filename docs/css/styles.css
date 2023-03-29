@@ -360,14 +360,43 @@ th {
 
 #content-column ul {
   margin: 0;
-  padding-left: 40px;
+  padding-left: 25px;
 }
+
+#content-column ol {
+  margin: 0;
+  padding-left: 25px;
+}
+
+
+
+
+
+
+/* ################# */
+/* ###   LINKS   ### */
+/* ################# */
 
 #content-column a {
-  text-decoration: none;
-  color: blue;
+  /* text-decoration: none; */
+  text-decoration: underline;
+  color: #060080;
 }
 
+/* #content-column p > a:after {
+  content: '⇗';
+}
+
+#content-column li > a:after {
+  content: '⇗';
+} */
+
+
+
+
+/* ##################################### */
+/* ###   FOOTNOTES AND REFERRENCES   ### */
+/* ##################################### */
 
 .footnotes ol {
   margin: 0;
@@ -384,14 +413,42 @@ th {
 }
 
 
+
+
+
+/* ######################## */
+/* ###   CODE STYLING   ### */
+/* ######################## */
+
 code {
   font-family: 'JetBrains Mono';
   line-height: 0.4em;
   font-size: 0.9em;
-  /* color: #3e3e3e; */
+  border-radius: 2px;
+  color: black;
   margin: 0px;
+}
+
+p > code {
+  padding: 1px 8px;
+  background-color: #EDEEF7;
+}
+
+li > code {
+  padding: 1px 8px;
+  background-color: #EDEEF7;
+}
+
+a > code {
+  padding: 1px 8px;
+  background-color: #EDEEF7;
+}
+
+.highlight > code {
   padding: 0px;
 }
+
+
 
 span {
   line-height: inherit;
@@ -478,7 +535,9 @@ span {
 
 
 
-
+/* ############################## */
+/* ###   SCREEN ADJUSTMENTS   ### */
+/* ############################## */
 
 @media screen and (max-width: 600px) {
   .column {
