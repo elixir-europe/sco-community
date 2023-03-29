@@ -2,7 +2,7 @@
 # github-pages mandatory configuration
 domain: czarnewski.github.io
 url: https://czarnewski.github.io/sco-community
-baseurl: /sco-community
+baseurl: ''
 repository: czarnewski/sco-community
 
 # Build settings
