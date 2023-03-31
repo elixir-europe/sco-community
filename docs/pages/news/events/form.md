@@ -5,7 +5,7 @@ logosnav: true
 layout: markdown
 application_open: 2023-02-19
 application_close: 2023-10-10
-form: https://docs.google.com/forms/d/e/1FAIpQLSed6AwKbcUtKv8OARpzb48Y3771BQlqh6lvTZb_brwIVJGYzQ/viewform?embedded=true
+form: https://docs.google.com/forms/d/e/1FAIpQLSed6AwKbcUtKv8OARpzb48Y3771BQlqh6lvTZb_brwIVJGYzQ/viewform
 group: About
 ---
 
