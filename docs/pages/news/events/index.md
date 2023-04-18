@@ -18,6 +18,11 @@ group: News
 <br>
 
 ## Upcoming meetings
+[**ELIXIR-GOBLET Train-the-Trainer May 2023**](https://elixiruknode.org/events/2023/elixir-goblet-train-the-trainer-may-2023/)
+- *Online*
+- *22-26 May 2023, 9am – 12:30pm (UK time)*
+
+<br>
 
 [**ELIXIR All Hands 2023**](https://elixir-europe.org/events/elixir-all-hands-2023)
 - *Dublin, Ireland*
