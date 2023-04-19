@@ -79,7 +79,7 @@ If you would like to create an SCO Community event, you need to do these ### ste
     - Online Attendance options
     - Participating institution logos/names
     - Footnotes/References.
-  3. With your Markdown description set, you can add the summary information to the `/docs/pages/news/new_and_events.csv` file.
+  3. With your Markdown description set, you can add the summary information to the [`/docs/pages/news/new_and_events.csv` file](../../pages/news/new_and_events.csv).
 
 <br>
 
