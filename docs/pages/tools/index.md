@@ -23,7 +23,7 @@ We are developing a set of benchmarking experiments focusing on multi-modalities
 
 ### BE1
 
-We are performing a scRNAseq experiment including the following elements:
+We are performing a 10XGenomics scRNAseq experiment including the following elements:
 
 -  PC9 (EGFR Del19, activating mutation, PMID: [Simonetti et al. 2010](https://pubmed.ncbi.nlm.nih.gov/21167064/) 
 -  A549 (KRAS p.G12S, growth and proliferation,  PMID: [Yoon et al. 2010](https://pubmed.ncbi.nlm.nih.gov/20358631/) 
