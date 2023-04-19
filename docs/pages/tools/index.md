@@ -34,7 +34,7 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 -  [EML4-ALK Fusion-A549 Isogenic Cell](https://www.nature.com/articles/d42473-019-00011-z) 
 -  White cells from donor buffy coat (PBMC)
 
-<img border="0" src="../../images/fig1_tools_BE1.jpg" width="1000px">
+<img border="0" src="../../images/fig1_tools_BE1.jpg" width="500px">
 
 The above figure shows the pathways underlying to the mutations characterising the seven tumor cell lines.
 PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0, to annotate immunological cell types thanks to the help of an experienced immunologist. 
