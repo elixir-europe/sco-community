@@ -16,12 +16,24 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 - In the long term, we aim to provide cloud deployable analysis pipelines that utilise Galaxy and Chipster platforms, as well as providing curated datasets for user driven benchmark on the OpenEBench infrastructure.
 
 
-## Title 1
+## Benchmark experiments
+
+We are developing a set of benchmarking experiments focusing on multi-modalities and multi-omics for validation of bioinformatics tools in the field of oncology.
 
 
-This is a test
+### BE1
+
+We are performing a scRNAseq experiment including the following elements:
+
+-  PC9 (EGFR Del19, activating mutation, PMID: [Simonetti et al. 2010](https://pubmed.ncbi.nlm.nih.gov/21167064/) 
+-  A549 (KRAS p.G12S, growth and proliferation,  PMID: [Yoon et al. 2010](https://pubmed.ncbi.nlm.nih.gov/20358631/) 
+-  NCI-H596 (MET Del14 , enhanced protection from apoptosis and cellular migration PMID: [Cerqua et al. 2022](https://pubmed.ncbi.nlm.nih.gov/35636967/) 
+-  NCI-H1395 (BRAF p.G469A, gain of function, resistant to all tested MEK +/− BRAF inhibitors, PMID: [Negrao et al. 2020](https://pubmed.ncbi.nlm.nih.gov/32540409/)) 
+-  DV90 (ERBB2 p.V842I, increases kinase activity, PMID: [Boese et al. 2013](https://pubmed.ncbi.nlm.nih.gov/23220880/) 
+-  HCC78 (SLC34A2-ROS1 Fusion, ROS1 inhibitors have antiproliferative effect PMID: [Davies et al. 2012](https://pubmed.ncbi.nlm.nih.gov/22919003/) 
+-  [EML4-ALK Fusion-A549 Isogenic Cell](https://www.nature.com/articles/d42473-019-00011-z) 
+-  White cells from donor buffy coat (PBMC)
 
 
-## Title 2
 
-This is the second test
+
