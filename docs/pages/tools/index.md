@@ -38,11 +38,15 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
   <img border="0" src="../../images/fig1_tools_BE1.jpg" width="500px">
 <p>
 
-The above figure shows the pathways underlying to the mutations characterising the seven tumor cell lines.
+The above figure shows the pathways underlying the mutations characterising the seven tumor cell lines.
+
 PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0, to annotate immunological cell types thanks to the help of an experienced immunologist. 
 10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
 
-Count tables of the all experiment will be accessible via a Skiny App to allow user to build a dataset encomplassing at various ratio the different 
+Count tables of the all experiment will be accessible via a Skiny App to allow user to build datasets encomplassing at various ratio the different cell lines.
+  
+**Actual state of the project:** collecting and growing cell lines. 
+**Expected data availability:** September 2023
 
 
 
