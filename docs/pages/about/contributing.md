@@ -102,7 +102,7 @@ There are 2 major HTML layout files can be found in the `docs/_layouts` folder:
 
 ### Page sections
 
-In addition to the main layouts, the source files used by the webpage sections are found in these four files:
+In addition to the main layouts, the source files used by the webpage sections are found in these four files, in the the `docs/_includes` folder
 
 `header.html`: this is a invisible section, used to load the CSS styles, scripts and other functions.
 
