@@ -35,7 +35,7 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 -  White cells from donor buffy coat (PBMC)
 
 
-![alt text](../../images/fig1_tools_BE1.jpg "Pathways underlying to the mutations characterising the seven tumor cell lines" source **=100x100**)
+![alt text](../../images/fig1_tools_BE1.jpg "Pathways underlying to the mutations characterising the seven tumor cell lines")
 
 
 
