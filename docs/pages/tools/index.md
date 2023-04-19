@@ -34,6 +34,6 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 -  [EML4-ALK Fusion-A549 Isogenic Cell](https://www.nature.com/articles/d42473-019-00011-z) 
 -  White cells from donor buffy coat (PBMC)
 
-![Alt text](fig1.png, "Pathways underlying to the mutations characterising the seven cell lines")
+![Alt text](https://www.singlecellomics.org/pages/tools/fig1.png, "Pathways underlying to the mutations characterising the seven cell lines")
 
 
