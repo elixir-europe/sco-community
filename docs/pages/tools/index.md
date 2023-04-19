@@ -46,6 +46,7 @@ PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0, 
 Count tables of the all experiment will be accessible via a Skiny App to allow user to build datasets encomplassing at various ratio the different cell lines.
   
 **Actual state of the project:** collecting and growing cell lines. 
+
 **Expected data availability:** September 2023
 
 
