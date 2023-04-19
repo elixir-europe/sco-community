@@ -68,7 +68,7 @@ In these page sections, you can add information and lists of resources:
 
 ### Updating News and Events
 
-You can list News and Upcoming events to the this file: [`/docs/pages/news/new_and_events.csv`](https://github.com/elixir-europe/sco-community/blob/b6afe38ad94f2fc1774881453d43f98e40e1d59a/docs/pages/news/new_and_events.csv). There, you should simply add a new line and fill the information for all columns. 
+You can list News and Upcoming events to the this file: [`/docs/pages/news/new_and_events.csv`](../../pages/news/new_and_events.csv). There, you should simply add a new line and fill the information for all columns. 
 
 If you would like to create an SCO Community event, you need to do these ### steps:
   1. Create a markdown file in this folder: [`/docs/pages/news/events`](../../pages/news/events). Please use this naming convention: "YYYYMMDD_Event_Title.md", where "YYYY-MM-DD" is the 1st day of the event incase of multiple days.
@@ -79,7 +79,7 @@ If you would like to create an SCO Community event, you need to do these ### ste
     - Online Attendance options
     - Participating institution logos/names
     - Footnotes/References.
-  3. With your Markdown description set, you can add the summary information to the [`/docs/pages/news/new_and_events.csv` file](../../pages/news/new_and_events.csv).
+  3. With your Markdown description set, you can add the summary information to the [`/docs/pages/news/new_and_events.csv`](../../pages/news/new_and_events.csv).
 
 <br>
 
