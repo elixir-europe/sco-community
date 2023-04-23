@@ -398,6 +398,36 @@ th {
 /* ###   FOOTNOTES AND REFERRENCES   ### */
 /* ##################################### */
 
+.SCO_training_table th {
+  margin: 0px 0px;
+  padding: 5px 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.SCO_training_table td {
+  margin: 0px 0px;
+  padding: 5px 5px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.SCO_training_table > table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #cfcfcf;
+}
+.SCO_training_table td {
+  border: 1px solid #cfcfcf;
+}
+.SCO_training_table th {
+  border: 1px solid #cfcfcf;
+}
+
+
+
+/* ##################################### */
+/* ###   FOOTNOTES AND REFERRENCES   ### */
+/* ##################################### */
+
 .footnotes ol {
   margin: 0;
   font-size: 0.8em;
@@ -411,6 +441,13 @@ th {
   margin: 0;
   line-height: 0.8em;
 }
+
+
+
+
+
+
+
 
 
 
