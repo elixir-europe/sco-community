@@ -40,17 +40,42 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 
 The above figure shows the pathways underlying the mutations characterising the seven tumor cell lines.
 
-PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0, to annotate immunological cell types thanks to the help of an experienced immunologist. 
+PBMC will be isolated from healthy donor and snap frozen. Before single cell generation, PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0. 
 10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
+  
+The experiment will be done using CellPlex technology from 10XGenomics allowing multiplexing samples into a single channel and therefore removing unwanted batch effects.
 
+Immunological cell types from PBMC will be annotated thanks to the help of an experienced immunologist. 
+  
 The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
   
-**Actual state of the project:** collecting and growing cell lines. 
+**Actual state of the project:** collected and grown five of the seven cell lines. 
 
 **Expected data availability:** September 2023
+  
+For further information please contact **raffaele dot calogero at unito dot it**
 
 
+### BE2
+
+The cell lines from for BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding in matrigel pools of the 7 cell lines at different ratios. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and  six slides using [Curio Bioscience](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. 
+In total we expect produce three cell lines ratios:
+  
+- Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
+- Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
+- Cell line 1 25%, cell line 2 25% cell line 3 10% cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%.
+  
+**Actual state of the project:** Expecting results from BE1. 
+
+**Expected data availability:** December 2023
+
+### BE3
+
+The cell lines for BE1 will be used to generate combined scRNAseq and scATACseq experiment using [10X genomics technology for multi-omics](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
+
+**Actual state of the project:** Expecting results from BE1. 
+
+**Expected data availability:** July 2024
 
 
-
-
+ 
