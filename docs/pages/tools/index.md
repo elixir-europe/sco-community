@@ -18,10 +18,8 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 
 ## Benchmark experiments
 
-We are developing a set of benchmarking experiments focusing on multi-modalities and multi-omics for validation of bioinformatics tools in the field of oncology.
-
-[*Tumor heterogeneity*](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity), where distinct cancer cells exhibit diverse morphological and phenotypic profiles, including gene expression, metabolism, and proliferation, poses challenges for molecular prognostic markers and patient classification for targeted therapies. Understanding the causes and progression of cancer requires research efforts aimed at characterizing heterogeneity, which can be facilitated by single-cell sequencing technologies. However, analyzing single cell data to discover and characterise tumor subpopulation today mainly relay on approaches developed to discriminate among different cell types in a specific tissue sample. We need to go head to this point focusing on the extraction of new knowledge from single cell omics other than cell type annotation [[*Mihai et al.*](https://arxiv.org/abs/2304.13084)]. 
-Therefore, the establishment of benchmarking datasets is necessary to provide a controlled environment for validating bioinformatics tools in the field of single cell oncology.
+[*Tumor heterogeneity*](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity), where distinct cancer cells exhibit diverse morphological and phenotypic profiles, including gene expression, metabolism, and proliferation, poses challenges for molecular prognostic markers and patient classification for targeted therapies. Various omics technologies, such as bulk and single-cell omics approaches, have enabled the characterization of diverse molecular layers at an unprecedented scale and resolution, offering a comprehensive perspective on the behavior of tumors. The integration of multiple omics datasets enables systematic exploration of diverse molecular information at each biological layer, but also presents challenges in extracting meaningful insights from the exponentially growing volume of multi-omics data. To address this challenge, efficient algorithms are required to dig into the data and reveal the underlying complexities of cancer's intricate biological processes. The past few years have seen a proliferation of new computational methods for analyzing single-cell omics data, which can make it challenging to select the most appropriate tool for a particular task.  As a result, it is crucial to establish benchmarking platforms and datasets in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
+As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
 
 ### BE1
 
@@ -45,7 +43,7 @@ The above figure shows the pathways underlying the mutations characterising the 
 PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0, to annotate immunological cell types thanks to the help of an experienced immunologist. 
 10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
 
-Count tables of the all experiment will be accessible via a Skiny App to allow user to build datasets encomplassing at various ratio the different cell lines.
+The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
   
 **Actual state of the project:** collecting and growing cell lines. 
 
