@@ -20,6 +20,8 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 
 We are developing a set of benchmarking experiments focusing on multi-modalities and multi-omics for validation of bioinformatics tools in the field of oncology.
 
+[*Tumor heterogeneity*](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity), where distinct cancer cells exhibit diverse morphological and phenotypic profiles, including gene expression, metabolism, and proliferation, poses challenges for molecular prognostic markers and patient classification for targeted therapies. Understanding the causes and progression of cancer requires research efforts aimed at characterizing heterogeneity, which can be facilitated by single-cell sequencing technologies. However, analyzing single cell data to discover and characterise tumor subpopulation today mainly relay on approaches developed to discriminate among different cell types in a specific tissue sample. We need to go head to this point focusing on the extraction of new knowledge from single cell omics other than cell type annotation [[*Mihai et al.*](https://arxiv.org/abs/2304.13084)]. 
+Therefore, the establishment of benchmarking datasets is necessary to provide a controlled environment for validating bioinformatics tools in the field of single cell oncology.
 
 ### BE1
 
