@@ -48,6 +48,7 @@ As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they cre
 - HCC827 (EGFR L858R mutation [[*Juchum et al. (2015)*](https://www.sciencedirect.com/topics/medicine-and-dentistry/hcc827-cell-line)])
 
 Data were generated using 10XGenomics v2 chemistry.
+The raw count table was provided without the association of the cell lines to each cell. We have assigned the cell line name to each cell via the similarity between single cell clusters and cell lines bulk data from CCLE database. The annotated count table and the full procedure used for the annotation are present a figshare dataset [[doi.org/10.6084/m9.figshare.23274413.v1](https://doi.org/10.6084/m9.figshare.23274413.v1)]
 
 
 ##### SCONE datasets
