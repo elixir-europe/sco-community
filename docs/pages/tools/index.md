@@ -69,7 +69,7 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 
 <img border="0" src="../../images/drivers_minimal_relations.jpg" width="500px">
 
-The above figure described the driver genes associated to each cell line. All driver genes have been observed in resistence occuring upon treatment with Isomertinib EGFR mutated lung cancers [[Gomatou et al. 2023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9913144/)].
+The above figure described the driver genes associated to each cell line. All driver genes have been observed in resistence occuring upon treatment with [*Isomertinib*](https://en.wikipedia.org/wiki/Osimertinib) of EGFR mutated lung cancers [[*Gomatou et al. (2023)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9913144/)].
 
 PBMC will be isolated from healthy donor and snap frozen. Before single cell generation, PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0. 
 10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
