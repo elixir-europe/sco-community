@@ -67,10 +67,9 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 -  [*EML4-ALK Fusion-A549 Isogenic Cell*](https://www.nature.com/articles/d42473-019-00011-z) 
 -  White cells from donor buffy coat (PBMC)
 
-
 <img border="0" src="../../images/fig1_tools_BE1.jpg" width="500px">
 
-The above figure described the driver genes assocaited to each cell line.
+The above figure described the driver genes associated to each cell line. All driver genes have been observed in resistence occuring upon treatment with Isomertinib EGFR mutated lung cancers [[Gomatou et al. 2023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9913144/)].
 
 PBMC will be isolated from healthy donor and snap frozen. Before single cell generation, PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0. 
 10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
