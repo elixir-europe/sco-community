@@ -312,7 +312,7 @@ h1 {
 }
 
 h2 {
-  color: #333352;
+  color: #023452;
   margin: 1em 0 0.5em;
   font-size: 1.6em;
   font-weight: bold;
@@ -320,7 +320,7 @@ h2 {
 
 
 h3 {
-  color: #666652;
+  color: #023452;
   margin: 1em 0 0.5em;
   font-size: 1.4em;
   font-weight: bold;
@@ -328,7 +328,7 @@ h3 {
 
 
 h4, h5, h6 {
-  color: #999999;
+  color: #023452;
   margin: 1em 0 0.5em;
   font-size: 1.2em;
   font-weight: bold;
@@ -606,7 +606,7 @@ span {
 }
 
 .news_link {
-  border-left: 2px solid black;
+  border-left: 2px solid #f47d21;
   border-top: 3px solid rgba(255, 0, 0, 0);
   border-bottom: 3px solid rgba(255, 0, 0, 0);
   display: inline-block;
