@@ -3,17 +3,17 @@ transparentnav: false
 fixednav: true
 logosnav: true
 layout: markdown
-application_open: 2023-09-17
-application_close: 2023-09-19
+application_open: 2023-10-17
+application_close: 2023-10-19
 group: Events
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
 # SCO-GM2023: Single-Cell Omics Community General Meeting
 
-**17-19 Sept 2023, EMBL-EBI, UK**
+**17-19 Oct 2023, EMBL-EBI, UK**
 
-Registration: *1 Aug - 20 Aug 2023*
+Registration: *1 Sep - 20 Sep 2023*
 
 <button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>
 
@@ -28,7 +28,7 @@ The SCO General Meeting brings all SCO Community members together to strengthen 
 
 ## Programme
 
-### Tue, 17 Sept 2023
+### Tue, 17 Oct 2023
 
 | ---------------- | ----------- |
 | 12:00 - 13:30 | *Arrival and lunch* |
@@ -40,7 +40,7 @@ The SCO General Meeting brings all SCO Community members together to strengthen 
 | 17:15 - 17:45 | Wrap up 1st day |
 | 19:00 - 19:00 | *Joint dinner* |
 
-### Wed, 18 Sept 2023
+### Wed, 18 Oct 2023
 
 | ------------- | ------------- |
 | 09:00 - 10:30 | **TBA** |
@@ -49,7 +49,7 @@ The SCO General Meeting brings all SCO Community members together to strengthen 
 | 12:30         | Wrap up and closing remarks |
 | 13:00 - 14:00 | *Lunch and departure* |
 
-### Wed, 19 Sept 2023
+### Wed, 19 Oct 2023
 
 | ------------- | ------------- |
 | 09:00 - 10:30 | **TBA** |
