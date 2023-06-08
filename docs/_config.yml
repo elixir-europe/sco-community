@@ -66,7 +66,7 @@ menu:
     url: pages/news/index
     submenu:
       - title: Events
-        url: pages/news/events
+        url: pages/news/index
       # - title: Funding
       #   url: pages/news/funding
 
