@@ -11,9 +11,9 @@ group: Events
 
 # Workshop for Single-Cell Omics data analysis trainers
 
-**21-22 March 2023, Geneva, Switzerland**
+**17-19 Sept 2023, EMBL-EBI, UK**
 
-Registration: *20 Jan - 12 March 2023*
+Registration: *1 Aug - 20 Aug 2023*
 
 <button id="apply_button" class="" open="{{ page.application_open }}" close="{{ page.application_close }}" onclick="{{ page.application_open }}"></button>
 
