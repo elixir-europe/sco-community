@@ -9,7 +9,7 @@ group: Events
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# Workshop for Single-Cell Omics data analysis trainers
+# SCO-GM2023: Single-Cell Omics Community General Meeting
 
 **17-19 Sept 2023, EMBL-EBI, UK**
 
