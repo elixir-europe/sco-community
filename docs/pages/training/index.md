@@ -38,7 +38,7 @@ Below you can find a list of course and other training-related events from our c
 **ELIXIR-GOBLET Train-the-Trainer May 2023**
 - [Go to event page](https://elixiruknode.org/events/2023/elixir-goblet-train-the-trainer-may-2023/)
 - *Online*
-- *22-26 May 2023, 9am – 12:30pm (UK time)*
+- *This course has been postponed to Q4/2023. More information will be displayed here in due time.*
 
 <br>
 
