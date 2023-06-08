@@ -7,33 +7,29 @@ group: News
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# TITLE
+# Events
 
-Below you can find a list of Events from our community in single-cell and spatial omics.
+## Upcoming workshops
 
-[contributing]({{site.baseurl}}/pages/about/contributing)
+[**Workshop for Single-Cell Omics data analysis trainers**]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
+- *Geneva, Switzerland*
+- *21-23 Mar 2023*
 
-## Title 2
+<br>
 
-### Title 3
+## Upcoming meetings
+[**ELIXIR-GOBLET Train-the-Trainer May 2023**](https://elixiruknode.org/events/2023/elixir-goblet-train-the-trainer-may-2023/)
+- *Online*
+- *22-26 May 2023, 9am – 12:30pm (UK time)*
 
-#### Title 4
+<br>
 
-##### Title 5
+[**ELIXIR All Hands 2023**](https://elixir-europe.org/events/elixir-all-hands-2023)
+- *Dublin, Ireland*
+- *05-08 Jun 2023*
 
-###### Title 6
+<br>
 
-Some text
-
-Some text in **bold**
-
-Some text in *italics*
-
-
-``` bash
-git add .
-for i in 1..10
-do
-  echo $i
-done
-```
+[**Human Cell Atlas General Meeting 2023**](https://events.humancellatlas.org/2023gm)
+- *Toronto, Canada*
+- *10-12 Jul 2023*

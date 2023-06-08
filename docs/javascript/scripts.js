@@ -1,4 +1,6 @@
-// SELF-UPDATING TABLE OF CONTENTS (JQUERY)
+// ####################################################
+// ###   SELF-UPDATING TABLE OF CONTENTS (JQUERY)   ###
+// ####################################################
 // jQuery(document).ready(function( $ ){
 var ToC = "" +
   "<ul class='toc'>";
@@ -20,13 +22,8 @@ all.each(function(){
 });
 
 
-ToC +=
-   "</ul>" +
-  "";
-
+ToC += "</ul>" + "";
 $(".sidebar").prepend(ToC);
-
-
 
 
 // CHECK IF THE DATE FOR THE APPLICATION BUTTON HAS PASSED
@@ -55,8 +52,9 @@ if (btn !== null){
 
 
 
-
-// FUNCCTION TO UPDATE THE NEWS ON A DIV-TAG.
+// #####################################################
+// ###   FUNCCTION TO UPDATE THE NEWS ON A DIV-TAG   ###
+// #####################################################
 function updateNews( data , TAG ) {
   // CLear inner HTML
   document.getElementById(TAG).innerHTML  = ''
@@ -65,7 +63,7 @@ function updateNews( data , TAG ) {
     data.forEach((row) => {
       document.getElementById(TAG).innerHTML +=
           `<a title="${row.DESCRIPTION_MAX20WORDS}" id="news_link" href="${row.URL}" class="active">
-            <div style="display: inline-block; width: 100%; padding: 10px 1px">
+            <div class="news_link">
               <p style="float: left; text-align: left; font-weight: bold;">${row.DATE_START_YYYYMMDD}</p>
               <p style="float: right;">▸</p> <br>
               <p style="float: left; text-align: left;">${row.TITLE_MAX60CHAR}</p>
@@ -79,8 +77,9 @@ function updateNews( data , TAG ) {
 
 
 
-
-// LOAD THE NEWS AND EVENTS .CSV FILE
+// ##############################################
+// ###   LOAD THE NEWS AND EVENTS .CSV FILE   ###
+// ##############################################
 d3.csv("pages/news/new_and_events.csv", function(data) {
   // data = data.sort((a, b) => a[0] - b[0]);
   window.ALLNEWS = data;
@@ -94,7 +93,6 @@ d3.csv("pages/news/new_and_events.csv", function(data) {
     return el.TYPE <= "Event" && new Date(el.DATE_START_YYYYMMDD) >= new Date();
   });
   updateNews( window.EVENTS , "EVENTS" )
-
 });
 
 
