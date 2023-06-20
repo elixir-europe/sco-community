@@ -50,6 +50,18 @@ As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they cre
 Data were generated using 10XGenomics v2 chemistry.
 The raw count table was provided without the association of the cell lines to each cell. We have assigned the cell line name to each cell via the similarity between single cell clusters and cell lines bulk data from CCLE database. The annotated count table and the full procedure used for the annotation are present a figshare dataset [[doi.org/10.6084/m9.figshare.23274413.v1](https://doi.org/10.6084/m9.figshare.23274413.v1)]
 
+##### PC9 dataset
+In GEO NCBI repository are available single cell data on PC9 untreated lung cancer cell line done in two different labs, using both 10XGenomics and Drop-seq platforms and produced from in vitro culture or xenograph experiments.
+
+- set1: GSM3972657 PC9 in vitro dropseq Chicago (2500 cells)
+- set2: SM4494347 PC9 in vitro dropseq Chicago (12000 cells)
+- set3: GSM3972651 PC9 in vitro 10XGenomix Chicago (12649 cells) 
+- set4: GSM6106787 PC9 in vitro 10XGenomix Berkeley (413 cells)
+- set5: GSM4869650 PC9 xenograft dropseq Chicago (29983 cells)
+- set6: GSM3972674 PC9 and U937 in vitro dropseq Chicago (2634 cells)
+
+These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository (XXXX). 
+
 
 ##### SCONE datasets
 As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
