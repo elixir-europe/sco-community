@@ -62,6 +62,8 @@ In GEO NCBI repository are available single cell data on PC9 untreated lung canc
 
 These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository (XXXX). 
 
+##### 77 annotated scRNAseq tumor datasets
+Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/37258682/)] have recenty curated, annotated and integrated the data from 77 different single cell transcriptomics studies encompassing a total of 1,163 tumour samples covering 24 tumour types and more than 23 milions cells. The data are accessible at [**3CA site**](https://www.weizmann.ac.il/sites/3CA/).
 
 ##### SCONE datasets
 As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
