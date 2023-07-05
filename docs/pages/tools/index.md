@@ -60,7 +60,7 @@ In GEO NCBI repository are available single cell data on PC9 untreated lung canc
 - set5: GSM4869650 PC9 xenograft dropseq Chicago (29983 cells)
 - set6: GSM3972674 PC9 and U937 in vitro dropseq Chicago (2634 cells)
 
-These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository (XXXX). 
+These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository (10.6084/m9.figshare.23626407 doi still inactive). 
 
 ##### 77 annotated scRNAseq tumor datasets
 Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/37258682/)] have recenty curated, annotated and integrated the data from 77 different single cell transcriptomics studies encompassing a total of 1,163 tumour samples covering 24 tumour types and more than 23 milions cells. The data are accessible at [**3CA site**](https://www.weizmann.ac.il/sites/3CA/).
