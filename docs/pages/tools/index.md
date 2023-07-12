@@ -94,7 +94,7 @@ Immunological cell types from PBMC will be annotated thanks to the help of an ex
   
 The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
   
-**Actual state of the project:** 10XGenomics libraries on going. 
+**Actual state of the project:** Sequencing on-going. 
 
 **Expected data availability:** September 2023
   
