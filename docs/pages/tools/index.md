@@ -78,7 +78,7 @@ We are performing a 10XGenomics scRNAseq experiment including the following elem
 -  NCI-H1395 (BRAF p.G469A, gain of function, resistant to all tested MEK +/− BRAF inhibitors, PMID: [*Negrao et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32540409/)) 
 -  DV90 (ERBB2 p.V842I, increases kinase activity, PMID: [*Boese et al. (2013)*](https://pubmed.ncbi.nlm.nih.gov/23220880/) 
 -  HCC78 (SLC34A2-ROS1 Fusion, ROS1 inhibitors have antiproliferative effect PMID: [*Davies et al. (2012)*](https://pubmed.ncbi.nlm.nih.gov/22919003/) 
--  [*EML4-ALK Fusion-A549 Isogenic Cell*](https://www.nature.com/articles/d42473-019-00011-z) 
+- CCL.185.IG [*EML4-ALK Fusion-A549 Isogenic Cell*](https://www.atcc.org/products/ccl-185ig) 
 -  White cells from donor buffy coat (PBMC)
 
 <img border="0" src="../../images/drivers_minimal_relations.jpg" width="500px">
@@ -94,7 +94,7 @@ Immunological cell types from PBMC will be annotated thanks to the help of an ex
   
 The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
   
-**Actual state of the project:** Sequencing on-going. 
+**Actual state of the project:** First of two runs available. 
 
 **Expected data availability:** September 2023
   
