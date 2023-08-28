@@ -41,7 +41,7 @@ Over the past few years, there has been a significant increase in the number of 
 
 ##### Healthy and diseases published single cell datasets
 
-[*CELLxGENE*](https://cellxgene.cziscience.com/datasets) is a suite of tools that help scientists to find, download, explore, analyze, annotate, and publish single cell datasets. it is characgterised by the possibility to download a wide set of published single cell experiments as h5 or seurat (v3) format.  
+[*CELLxGENE*](https://cellxgene.cziscience.com/datasets) is a suite of tools that help scientists to find, download, explore, analyze, annotate, and publish single cell datasets. it is characterised by the possibility to download a wide set of published single cell experiments as h5 or seurat (v3) format.  
 
 ##### Tian et al. (2019) dataset
 As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they created ‘pseudo cells’ from up to five distinct human lung adenocarcinoma cell lines. GEO dataset [GSM3618014](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3618014) contains the mixture of five cell lines: 
