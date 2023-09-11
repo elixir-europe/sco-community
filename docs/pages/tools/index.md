@@ -101,7 +101,7 @@ The count tables from the entire BE1 experiment will be made available through a
   
 **Actual state of the project:** Fully sequenced (PBMC library few cells). 
 
-**Processed data are available at:**10.6084/m9.figshare.23939481
+**Processed data are available at:** 10.6084/m9.figshare.23939481
   
 For further information please contact **raffaele dot calogero at unito dot it**
 
