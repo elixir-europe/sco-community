@@ -15,8 +15,8 @@ group: Events
 
 **Registration deadlines**: 
 
-F2F registration deadline: 27 September  2023
+- F2F registration deadline: 27 September  2023
 
-Virtual registration deadline: 16 October 2023
+- Virtual registration deadline: 16 October 2023
 
 
