@@ -14,7 +14,9 @@ group: Events
 [**Link to Meeting page**](https://elixir-europe.org/events/elixir-single-cell-omics-community-f2fhybrid-meeting-0)
 
 **Registration deadlines**: 
+
 F2F registration deadline: 27 September  2023
+
 Virtual registration deadline: 16 October 2023
 
 
