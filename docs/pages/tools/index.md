@@ -60,8 +60,8 @@ In GEO NCBI repository are available single cell data on PC9 untreated lung canc
 
 - set1: GSM3972657 PC9 in vitro dropseq Chicago (2500 cells)
 - set2: SM4494347 PC9 in vitro dropseq Chicago (12000 cells)
-- set3: GSM3972651 PC9 in vitro 10XGenomix Chicago (12649 cells) 
-- set4: GSM6106787 PC9 in vitro 10XGenomix Berkeley (413 cells)
+- set3: GSM3972651 PC9 in vitro 10XGenomics Chicago (12649 cells) 
+- set4: GSM6106787 PC9 in vitro 10XGenomics Berkeley (413 cells)
 - set5: GSM4869650 PC9 xenograft dropseq Chicago (29983 cells)
 - set6: GSM3972674 PC9 and U937 in vitro dropseq Chicago (2634 cells)
 - set7: BE1 (see below) GSMXXXXX PC9 in vitro 10XGenomics Turin (4492 cells)
