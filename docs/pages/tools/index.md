@@ -64,6 +64,7 @@ In GEO NCBI repository are available single cell data on PC9 untreated lung canc
 - set4: GSM6106787 PC9 in vitro 10XGenomix Berkeley (413 cells)
 - set5: GSM4869650 PC9 xenograft dropseq Chicago (29983 cells)
 - set6: GSM3972674 PC9 and U937 in vitro dropseq Chicago (2634 cells)
+- set7: BE1 (see below) GSMXXXXX PC9 in vitro 10XGenomics Turin (4492 cells)
 
 These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository (10.6084/m9.figshare.23626407 doi still inactive). 
 
