@@ -76,7 +76,7 @@ As part of the Single Cell Community implementation study we are focusing in pro
 
 ###### BE1
 
-We are performing a 10XGenomics scRNAseq experiment including the following elements:
+We have done a 10XGenomics scRNAseq experiment including the following elements:
 
 -  PC9 (EGFR Del19, activating mutation, PMID: [*Simonetti et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/21167064/) 
 -  A549 (KRAS p.G12S, growth and proliferation,  PMID: [*Yoon et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/20358631/) 
@@ -100,7 +100,7 @@ Immunological cell types from PBMC will be annotated thanks to the help of an ex
   
 The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
   
-**Actual state of the project:** Fully sequenced (PBMC library few cells). 
+**Actual state of the project:** Fully sequenced (PBMC library few cells, antibody labelling failed). 
 
 **Processed data are available at:** 10.6084/m9.figshare.23939481
   
