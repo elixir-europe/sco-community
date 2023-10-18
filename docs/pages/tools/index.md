@@ -116,15 +116,15 @@ In total we expect produce three cell lines ratios:
   
 **Actual state of the project:** Expecting results from BE1. 
 
-**Expected data availability:** December 2023
+**Expected data availability:** March 2024
 
 ###### BE3
 
-The cell lines for BE1 will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
+A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines for BE1 will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
 
-**Actual state of the project:** Expecting results from BE1. 
+**Actual state of the project:** Ordered 10XGenomics multi-omics kit. 
 
-**Expected data availability:** July 2024
+**Expected data availability:** January 2024
 
 
  
