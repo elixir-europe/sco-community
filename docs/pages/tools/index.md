@@ -85,22 +85,20 @@ We have done a 10XGenomics scRNAseq experiment including the following elements:
 -  DV90, 2998 sequenced cells (ERBB2 p.V842I, increases kinase activity, PMID: [*Boese et al. (2013)*](https://pubmed.ncbi.nlm.nih.gov/23220880/) 
 -  HCC78, 2748 sequenced cells (SLC34A2-ROS1 Fusion, ROS1 inhibitors have antiproliferative effect PMID: [*Davies et al. (2012)*](https://pubmed.ncbi.nlm.nih.gov/22919003/) 
 - CCL.185.IG, 6354 sequenced cells [*EML4-ALK Fusion-A549 Isogenic Cell*](https://www.atcc.org/products/ccl-185ig) 
--  White cells from donor buffy coat (PBMC 478 sequenced cells)
 
 <img border="0" src="../../images/drivers_minimal_relations.jpg" width="500px">
 
 The above figure described the driver genes associated to each cell line. Only a minimal part of the connections has been shown to easy readability of the image. Full list of the interactions depicted by [*IPA*](https://digitalinsights.qiagen.com/products-overview/discovery-insights-portfolio/analysis-and-visualization/qiagen-ipa/?utm_source=QDI_GA_IPA&cmpid=QDI_GA_IPA&gclid=CjwKCAjwpuajBhBpEiwA_Ztfha6eGDCSYCgWJdU_WLaESr4az3OOXllkow2o0Xmfxz8OhFo7Z2cpxhoC4okQAvD_BwE) are available at figshare [10.6084/m9.figshare.23284748 (This doi is not active, yet)]. All driver genes have been observed in resistence occuring upon treatment with [*Isomertinib*](https://en.wikipedia.org/wiki/Osimertinib) of EGFR mutated lung cancers [[*Gomatou et al. (2023)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9913144/)].
+  
+The experiment was done using CellPlex technology from 10XGenomics allowing multiplexing samples into a single channel and therefore removing unwanted batch effects.
 
-PBMC will be isolated from healthy donor and snap frozen. Before single cell generation, PBMC will be marked with Biolegend TotalSeq™-B human universal cocktail v1.0. 
-10XGenomics analysis will be performed using CellPlex 10XGenomics technology, allowing samples labelling.
+The count tables from the entire BE1 experiment are available through an [*R Shiny app*](http://130.192.212.153:3838/), allowing users to construct datasets encompassing different cell lines at varying ratios. An R package providing the same functionalites of the R Shiny app is available at [*github.com/kendomaniac/BE1*](https://github.com/kendomaniac/BE1).
   
-The experiment will be done using CellPlex technology from 10XGenomics allowing multiplexing samples into a single channel and therefore removing unwanted batch effects.
+**Actual state of the project:** Fully sequenced, raw data deposited to GEO: GSE243665 (Raw data under embargo till the pubblication of the dataset).
 
-Immunological cell types from PBMC will be annotated thanks to the help of an experienced immunologist. 
-  
-The count tables from the entire BE1 experiment will be made available through an R Shiny app, allowing users to construct datasets encompassing different cell lines at varying ratios.
-  
-**Actual state of the project:** Fully sequenced (PBMC library few cells, antibody labelling failed), raw data deposited to GEO: GSE243665 (Raw data under embargo till the pubblication of the dataset). 
+<img border="0" src="../../images/be1.png" width="700px">
+
+The above figure show the sequencing statistics of the 7 cell lines.
 
 **Processed data are available at:** 10.6084/m9.figshare.23939481
   
