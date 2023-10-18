@@ -120,7 +120,7 @@ In total we expect produce three cell lines ratios:
 
 ###### BE3
 
-A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines for BE1 will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
+A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
 
 **Actual state of the project:** Ordered 10XGenomics multi-omics kit. 
 
