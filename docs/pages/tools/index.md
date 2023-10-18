@@ -100,7 +100,7 @@ The count tables from the entire BE1 experiment are available through an [*R Shi
 
 The above figure show the sequencing statistics of the 7 cell lines.
 
-**Processed data are available at:** 10.6084/m9.figshare.23939481
+**Processed data are available at:** [*10.6084/m9.figshare.23939481*](https://doi.org/10.6084/m9.figshare.23939481.v1)
   
 For further information please contact **raffaele dot calogero at unito dot it**
 
