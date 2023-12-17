@@ -48,8 +48,8 @@ As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they cre
 
 - H2228 (PTPN3 KO [[*Jung et al (2012)*](https://pubmed.ncbi.nlm.nih.gov/22334442/)], ML4-ALK Fusion [[*Isozaki et al (2015)*]](https://pubmed.ncbi.nlm.nih.gov/26719536/))
 - H1975 (EGFR L858R and T790M mutations [[*Zhao et al. 2015*](https://pubmed.ncbi.nlm.nih.gov/25483995/)])
-- A549 (KRAS p.G12S, growth and proliferation,  PMID: [*Yoon et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/20358631/)
-- H838
+- A549 (KRAS p.G12S, growth and proliferation [[*Yoon et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/20358631/)]
+- H838 (Low level EGFR expression [[[*Kaur et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34601320/)])
 - HCC827 (EGFR L858R mutation [[*Juchum et al. (2015)*](https://www.sciencedirect.com/topics/medicine-and-dentistry/hcc827-cell-line)])
 
 Data were generated using 10XGenomics v2 chemistry.
