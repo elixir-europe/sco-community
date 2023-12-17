@@ -46,7 +46,7 @@ Over the past few years, there has been a significant increase in the number of 
 ##### Tian et al. (2019) dataset
 As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they created ‘pseudo cells’ from up to five distinct human lung adenocarcinoma cell lines. GEO dataset [GSM3618014](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3618014) contains the mixture of five cell lines: 
 
-- H2228 (PTPN3 KO [[*Jung et al (2012)*](https://pubmed.ncbi.nlm.nih.gov/22334442/)], ML4-ALK Fusion [[*Isozaki et al (2015)*]](https://pubmed.ncbi.nlm.nih.gov/26719536/))
+- H2228 (PTPN3 KO [[*Jung et al (2012)*](https://pubmed.ncbi.nlm.nih.gov/22334442/)], EML4-ALK Fusion [[*Isozaki et al (2015)*]](https://pubmed.ncbi.nlm.nih.gov/26719536/))
 - H1975 (EGFR L858R and T790M mutations [[*Zhao et al. 2015*](https://pubmed.ncbi.nlm.nih.gov/25483995/)])
 - A549 (KRAS p.G12S, growth and proliferation [[*Yoon et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/20358631/)]
 - H838 (Low level EGFR expression [[[*Kaur et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34601320/)])
