@@ -59,7 +59,7 @@ The raw count table was provided without the association of the cell lines to ea
 In GEO NCBI repository are available single cell data on PC9 untreated lung cancer cell line done in two different labs, using both 10XGenomics and Drop-seq platforms and produced from in vitro culture or xenograph experiments.
 
 - set1: GSM3972657 PC9 in vitro dropseq Chicago (2500 cells)
-- set2: SM4494347 PC9 in vitro dropseq Chicago (12000 cells)
+- set2: GSM4494347 PC9 in vitro dropseq Chicago (12000 cells)
 - set3: GSM3972651 PC9 in vitro 10XGenomics Chicago (12649 cells) 
 - set4: GSM6106787 PC9 in vitro 10XGenomics Berkeley (413 cells)
 - set5: GSM4869650 PC9 xenograft dropseq Chicago (29983 cells)
