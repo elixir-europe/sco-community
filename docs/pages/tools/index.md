@@ -94,7 +94,7 @@ The experiment was done using CellPlex technology from 10XGenomics allowing mult
 
 The count tables from the entire BE1 experiment are available through an [*R Shiny app*](http://130.192.212.153:3838/), allowing users to construct datasets encompassing different cell lines at varying ratios. An R package providing the same functionalites of the R Shiny app is available at [*github.com/kendomaniac/BE1*](https://github.com/kendomaniac/BE1).
   
-**Actual state of the project:** Fully sequenced, raw data deposited to GEO: GSE243665 (Raw data under embargo till the pubblication of the dataset).
+**Actual state of the project:** Fully sequenced, raw data deposited to GEO: [*GSE243665*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665).
 
 <img border="0" src="../../images/be1.png" width="700px">
 
