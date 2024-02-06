@@ -74,7 +74,7 @@ Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/372586
 ##### SCONE datasets
 As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
 
-###### BE1 ([A single cell RNAseq benchmark experiment embedding "controlled" cancer heterogeneity](https://pubmed.ncbi.nlm.nih.gov/38307867/))
+###### BE1 ([*A single cell RNAseq benchmark experiment embedding "controlled" cancer heterogeneity*](https://pubmed.ncbi.nlm.nih.gov/38307867/))
 
 We have done a 10XGenomics scRNAseq experiment including the following elements:
 
@@ -94,7 +94,7 @@ The experiment was done using CellPlex technology from 10XGenomics allowing mult
 
 The count tables from the entire BE1 experiment are available through an [*R Shiny app*](http://130.192.212.153:3838/), allowing users to construct datasets encompassing different cell lines at varying ratios. An R package providing the same functionalites of the R Shiny app is available at [*github.com/kendomaniac/BE1*](https://github.com/kendomaniac/BE1).
   
-**Actual state of the project:** Fully sequenced, raw data deposited to GEO: [*GSE243665*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665).
+**Actual state of the project:** Fully sequenced, raw data deposited to GEO: [*GSE243665*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665), published on Sci Data 2024 Feb 2;11(1):159. [*doi: 10.1038/s41597-024-03002-y*](https://www.nature.com/articles/s41597-024-03002-y).
 
 <img border="0" src="../../images/be1.png" width="700px">
 
