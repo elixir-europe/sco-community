@@ -74,7 +74,7 @@ Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/372586
 ##### SCONE datasets
 As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
 
-###### BE1
+###### BE1 ([A single cell RNAseq benchmark experiment embedding "controlled" cancer heterogeneity](https://pubmed.ncbi.nlm.nih.gov/38307867/))
 
 We have done a 10XGenomics scRNAseq experiment including the following elements:
 
