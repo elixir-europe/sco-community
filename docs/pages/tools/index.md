@@ -15,6 +15,10 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 - To facilitate findability and usability, we aim to contribute to tool registries and provide portable software environments of the most commonly used tools/workflows.
 - In the long term, we aim to provide cloud deployable analysis pipelines that utilise Galaxy and Chipster platforms, as well as providing curated datasets for user driven benchmark on the OpenEBench infrastructure.
 
+## Interesting softwares
+
+### Multi modal-omics & spatial integration
+[*SpaTrio*](https://github.com/ZJUFanLab/SpaTrio) is a computational tool based on optimal transport that can align single-cell multi-omics data in space while preserving the spatial topology of the tissue section and local geometry of modality ([Yang et al. Cell Genomics 2023](https://www.sciencedirect.com/science/article/pii/S2666979X23002811)).
 
 ## Benchmark experiments
 
