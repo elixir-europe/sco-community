@@ -126,5 +126,14 @@ A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines will be used to generate 
 
 **Expected data availability:** January 2024
 
+#### Spatial transcriptomics
+
+##### [STOmicsDB](https://db.cngb.org/stomics/)
+Spatial Transcript Omics DataBase (STOmics DB) is a comprehensive repository of literature and Datasets related to spatial transcriptomics topics, and provides convenient tools for Data analysis, search and visualization ([Zhicheng et al. NAR 2023](https://academic.oup.com/nar/article/52/D1/D1053/7416388)).
+
+
+
+
+
 
  
