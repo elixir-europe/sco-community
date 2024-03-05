@@ -137,9 +137,14 @@ A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines will be used to generate 
 ##### [STOmicsDB](https://db.cngb.org/stomics/)
 Spatial Transcript Omics DataBase (STOmics DB) is a comprehensive repository of literature and Datasets related to spatial transcriptomics topics, and provides convenient tools for Data analysis, search and visualization ([Xu et al. NAR 2023](https://academic.oup.com/nar/article/52/D1/D1053/7416388)).
 
-##### [https://ngdc.cncb.ac.cn/crost/home](https://academic.oup.com/nar/article/52/D1/D882/7288834)
+##### [Crost](https://ngdc.cncb.ac.cn/crost/home)
 CROST offers single-sample analysis, interactive visualization, multi-omics integration for exploring cancer svg, and other powerful tools for spatial transcriptomics researches ([Wang et al. NAR 2023](https://academic.oup.com/nar/article/52/D1/D882/7288834)).
 
+##### [SpatialDB](https://www.spatialomics.org/SpatialDB/)
+SpatialDB is a public database that specifically curates spatially resolved transcriptomic data from published papers, aiming to provide a comprehensive and accurate resource of spatial gene expression profiles in tissues.
+
+##### [SOAR](https://soar.fsm.northwestern.edu/)
+SOAR is a comprehensive database of 304 spatial transcriptomics datasets from 11 species across 40 tissue types.
 
 
 
