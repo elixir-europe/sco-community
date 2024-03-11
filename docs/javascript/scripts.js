@@ -90,7 +90,8 @@ d3.csv("pages/news/new_and_events.csv", function(data) {
   updateNews( window.NEWS , "NEWS" )
 
   window.EVENTS = window.ALLNEWS.filter(function (el) {
-    return el.TYPE <= "Event" && new Date(el.DATE_START_YYYYMMDD) >= new Date();
+ //   return el.TYPE <= "Event" && new Date(el.DATE_START_YYYYMMDD) >= new Date();
+    return el.TYPE <= "Event";
   });
   updateNews( window.EVENTS , "EVENTS" )
 });
