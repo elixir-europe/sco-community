@@ -32,7 +32,7 @@ The easiest way to contribute with hands-on designs is to:
 
 Once you are happy with the changes made, you can now create a **pull request** (PR) to the main page like so:
 
-1. Start by add you changes with `git add .`.
+1. Start by adding your changes with `git add .`.
 2. Commit them with `git commit -m 'SHORT MESSAGE OF WHAT YOU CHANGED'`.
 3. Do `git push` to upload your modifications to Github.
 4. Then on your Github page will appear a link to `contribute to the main repository via pull request`.
