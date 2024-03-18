@@ -11,9 +11,15 @@ group: Tools
 
 A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate the accuracy of each tool are lacking. Furthermore, most benchmark efforts are focused on certain cell types or tissues.
 
-- The first goal is the identification of a few scRNA-seq datasets for developing the rules to be used for defining datasets suitable to become benchmarking cases. We aim to create a central pipeline to benchmark SCO tools and define standard datasets for such benchmarks. The outcomes of benchmarking and software challenges allow data scientists to make an informed decision on the software to be used in their analytical workflows.
+- The first goal is the identification of scRNA-seq datasets, which can be used as benchmarking cases. 
 - To facilitate findability and usability, we aim to contribute to tool registries and provide portable software environments of the most commonly used tools/workflows.
-- In the long term, we aim to provide cloud deployable analysis pipelines that utilise Galaxy and Chipster platforms, as well as providing curated datasets for user driven benchmark on the OpenEBench infrastructure.
+- In the long term, we aim to provide cloud deployable analysis pipelines, as well as providing curated datasets for user driven benchmark.
+
+## Benchmarking infrastructures
+
+### [*openEbench*](https://openebench.bsc.es/)
+OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. 
+
 
 ## Interesting softwares
 
@@ -21,6 +27,9 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 [*SpaTrio*](https://github.com/ZJUFanLab/SpaTrio) is a computational tool based on optimal transport that can align single-cell multi-omics data in space while preserving the spatial topology of the tissue section and local geometry of modality ([Yang et al. Cell Genomics 2023](https://www.sciencedirect.com/science/article/pii/S2666979X23002811)).
 
 [*VortRon*](https://github.com/BIMSBbioinfo/VoltRon) is a spatial omic analysis toolbox for multi-omics integration using spatial image registration. VoltRon is also capable of analyzing multiple types of spatially-aware data modalities.
+
+### Reproducibility softwares
+[*CREDO*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05695-9), a Customizable, REproducible, DOcker file generator for bioinformatics applications, has been developed as a tool to moderate reproducibility issues by building and distributing docker containers with embedded bioinformatics tools. CREDO simplifies the process of generating Docker images, facilitating reproducibility and efficient research in bioinformatics. The crucial step in generating a Docker image is creating the Dockerfile, which requires incorporating heterogeneous packages and environments such as Bioconductor and Conda. CREDO stores all required package information and dependencies in a Github-compatible format to enhance Docker image reproducibility, allowing easy image creation from scratch. The [*user-friendly GUI*](https://github.com/alessandriLuca/CREDOgui) and [*CREDO's ability to generate modular Docker images*](https://github.com/alessandriLuca/CREDOengine) make it an ideal tool for life scientists to efficiently create Docker images. 
 
 ## Benchmark experiments
 
