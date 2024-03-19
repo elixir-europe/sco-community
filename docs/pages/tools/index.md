@@ -143,7 +143,7 @@ A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines will be used to generate 
 
 #### Spatial Omics
 
-##### [SpatialOmics](https://gene.ai.tencent.com/SpatialOmics/)
+##### [SODB](https://gene.ai.tencent.com/SpatialOmics/)
 Spatial Omics DataBase ([SODB](https://www.nature.com/articles/s41592-023-01773-7)) is a comprehensive database designated for general spatial omics data. SODB provides: Various spatial omics data modalities, including spatially resolved transcriptomics, proteomics, metabolomics, genomics and multi-omics.
 
 ##### [STOmicsDB](https://db.cngb.org/stomics/)
