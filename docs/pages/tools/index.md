@@ -28,6 +28,12 @@ OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioi
 
 [*VortRon*](https://github.com/BIMSBbioinfo/VoltRon) is a spatial omic analysis toolbox for multi-omics integration using spatial image registration. VoltRon is also capable of analyzing multiple types of spatially-aware data modalities.
 
+### Generative AI
+[*Geneformer*](https://huggingface.co/ctheodoris/Geneformer), pretrained on a large-scale corpus of about 30 million single-cell transcriptomes enables context-specific predictions in settings with limited data in network biology [*Theodoris et al. Nature 2023*](https://www.nature.com/articles/s41586-023-06139-9).
+
+[*scGPT*](https://github.com/bowang-lab/scGPT)  distills critical biological insights concerning genes and cells. scGPT can be optimized to achieve superior performance across tasks such as cell type annotation, multi-batch integration, multi-omic integration, perturbation response prediction and gene network inference [*Cui et al. Nature Methods (2024)*](https://www.nature.com/articles/s41592-024-02201-0).
+
+
 ### Reproducibility softwares
 [*CREDO*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05695-9), a Customizable, REproducible, DOcker file generator for bioinformatics applications, has been developed as a tool to moderate reproducibility issues by building and distributing docker containers with embedded bioinformatics tools. CREDO simplifies the process of generating Docker images, facilitating reproducibility and efficient research in bioinformatics. The crucial step in generating a Docker image is creating the Dockerfile, which requires incorporating heterogeneous packages and environments such as Bioconductor and Conda. CREDO stores all required package information and dependencies in a Github-compatible format to enhance Docker image reproducibility, allowing easy image creation from scratch. The [*user-friendly GUI*](https://github.com/alessandriLuca/CREDOgui) and [*CREDO's ability to generate modular Docker images*](https://github.com/alessandriLuca/CREDOengine) make it an ideal tool for life scientists to efficiently create Docker images. 
 
