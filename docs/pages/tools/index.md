@@ -28,6 +28,13 @@ OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioi
 
 [*VortRon*](https://github.com/BIMSBbioinfo/VoltRon) is a spatial omic analysis toolbox for multi-omics integration using spatial image registration. VoltRon is also capable of analyzing multiple types of spatially-aware data modalities.
 
+[*MENDER*](https://www.nature.com/articles/s41467-023-44367-9), Multi-range cEll coNtext DEciphereR, is an unsupervised spatial domain identification tool. MENDER has 3 highlighted points, which are considered major bottlenecks of existing methods:
+- multi-slice spatial domain identification that challenges many advanced methods;
+- scalability to million-level datasets;
+- improved running time efficiency without the need of GPU,
+
+[*yuanzhiyuan/MENDER GitHUb*](https://github.com/yuanzhiyuan/MENDER). 
+
 ### Generative AI
 [*Geneformer*](https://huggingface.co/ctheodoris/Geneformer), pretrained on a large-scale corpus of about 30 million single-cell transcriptomes enables context-specific predictions in settings with limited data in network biology [*Theodoris et al. Nature 2023*](https://www.nature.com/articles/s41586-023-06139-9).
 
