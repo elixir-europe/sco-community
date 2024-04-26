@@ -53,7 +53,9 @@ OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioi
 
 [*popularVote*](https://tabula-sapiens-portal.ds.czbiohub.org/annotateuserdata), i.e. popV, applies a series of annotation algorithms, each providing a different recipe for transferring labels from Tabula Sapiens to the user-provided data. popV then conducts consensus analysis over these algorithms to estimate the most reproducible annotation of every cell, and to highlight cells that are difficult to label.
 
-[*scATOMIC*](https://www.nature.com/articles/s41467-023-37353-8), single cell annotation of tumour microenvironments in pan-cancer settings, is a comprehensive, pan cancer, TME cell type classifier. It is based on a structured scheme that uses hierarchically organized models and elimination processes, reducing the transcriptomic complexity of the TME multi-cellular system to improve cell classification, [*abelson-lab/scATOMIC github*](https://github.com/abelson-lab/scATOMIC).
+[*scATOMIC*](https://www.nature.com/articles/s41467-023-37353-8), single cell annotation of tumour microenvironments in pan-cancer settings, is a comprehensive, pan cancer, TME cell type classifier. It is based on a structured scheme that uses hierarchically organized models and elimination processes, reducing the transcriptomic complexity of the TME multi-cellular system to improve cell classification, [*abelson-lab/scATOMIC GitHub*](https://github.com/abelson-lab/scATOMIC).
+
+[*SifiNet*](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae307/7655783?login=true) is a robust and accurate computational pipeline for identifying distinct gene sets, extracting and annotating cellular subpopulations, and elucidating intrinsic relationships among these subpopulations. Uniquely, SifiNet bypasses the cell clustering stage, commonly integrated into other cellular annotation pipelines, thereby circumventing potential inaccuracies in clustering that may compromise subsequent analyses [*jichunxie/sifinet GitHub*](https://github.com/jichunxie/sifinet)
 
 ## Benchmark experiments
 
