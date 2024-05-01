@@ -37,6 +37,8 @@ OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioi
 
 [*TDEseq*](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03237-3) is a non-parametric statistical method that takes full advantage of smoothing splines basis functions to account for the dependence of multiple time points in scRNA-seq studies, and uses hierarchical structure linear additive mixed models to model the correlated cells within an individual. [*TEDseq GitHub*](https://github.com/fanyue322/TDEseq)
 
+[*scTCP*](https://pubmed.ncbi.nlm.nih.gov/38684178/) is a novel semi-supervised deep clustering model for scRNA-seq data. The method utilizes deep clustering in a low-dimensional feature space and incorporates triplet generation based on known labels and pairwise constraints, to guide the clustering process. To address the issue of data imbalance in the dataset, a weighted cross-entropy optimization model was also introduced. [*LF-Yang/Code GitHub*](https://github.com/LF-Yang/Code)
+
 ### Generative AI
 [*Geneformer*](https://huggingface.co/ctheodoris/Geneformer), pretrained on a large-scale corpus of about 30 million single-cell transcriptomes enables context-specific predictions in settings with limited data in network biology [*Theodoris et al. Nature 2023*](https://www.nature.com/articles/s41586-023-06139-9).
 
