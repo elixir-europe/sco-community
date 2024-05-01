@@ -18,7 +18,10 @@ A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate
 ## Benchmarking infrastructures
 
 ### [*openEbench*](https://openebench.bsc.es/)
-OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows. 
+OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows.
+
+### [*DANCE*](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03211-z)
+DANCE is the first standard, generic, and extensible benchmark platform for accessing and evaluating computational methods across the spectrum of benchmark datasets for numerous single-cell analysis tasks. Currently, DANCE supports 3 modules and 8 popular tasks with 32 state-of-art methods on 21 benchmark datasets. People can easily reproduce the results of supported algorithms across major benchmark datasets via minimal efforts, such as using only one command line. In addition, DANCE provides an ecosystem of deep learning architectures and tools for researchers to facilitate their own model development. DANCE is an open-source Python package that welcomes all kinds of contributions. [*OmicsML/dance GitHub*](https://github.com/OmicsML/dance?tab=readme-ov-file).
 
 
 ## Interesting softwares
