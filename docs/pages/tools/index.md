@@ -68,6 +68,9 @@ Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP) contains a suite o
 
 [*SifiNet*](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae307/7655783?login=true) is a robust and accurate computational pipeline for identifying distinct gene sets, extracting and annotating cellular subpopulations, and elucidating intrinsic relationships among these subpopulations. Uniquely, SifiNet bypasses the cell clustering stage, commonly integrated into other cellular annotation pipelines, thereby circumventing potential inaccuracies in clustering that may compromise subsequent analyses [*jichunxie/sifinet GitHub*](https://github.com/jichunxie/sifinet)
 
+### Data imputation
+[*scBP*](https://pubmed.ncbi.nlm.nih.gov/38706317/) is a two-step graph-based feature propagation method. It initially imputes zero values using non-zero values, ensuring that the imputation process does not affect the non-zero values due to dropout. Subsequently, it denoises the entire dataset by leveraging gene-gene and cell-cell relationships in the respective steps.
+
 ## Benchmark experiments
 
 Researchers in computational biology and other scientific fields often encounter the challenge of selecting the most appropriate computational methods to analyze their data. To determine the strengths of each method or to make recommendations on the best options for an analysis, benchmarking studies are conducted, which rigorously compare the performance of different methods using well-characterized benchmark datasets. However, to ensure that the results are reliable, unbiased, and informative, benchmarking studies must be carefully designed and executed. [*Weber et al. (2019)*](https://pubmed.ncbi.nlm.nih.gov/31221194/) provided a set of practical guidelines and recommendations for conducting benchmarking analyses of high quality. 
