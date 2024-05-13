@@ -177,7 +177,9 @@ In total we expect produce three cell lines ratios:
 
 ###### BE3
 
-A549, CCL.185.IG, NCI-H596 (HTB178) and PC9 cell lines will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression).
+PC9 and DV90 cell lines will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate 4 samples PC9 alone, DV90 alone, PC9/DV90 co-colture, two replicates. For the same samples we will also analysed in triplicates the secreted microvesicles (RNA/miRNAseq) and the bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive data set to benchmark tools devoted to the prediction of cell to cell interaction.
+<img border="0" src="../../images/be3.png" width="700px">
+
 
 **Actual state of the project:** Ordered 10XGenomics multi-omics kit. 
 
