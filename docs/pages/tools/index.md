@@ -83,7 +83,7 @@ Benchmarking can be approached at two different level:
 - wet lab experiment
 
 ### In silico benchmark experiments
-The validation and comparison of tools in the field of simulation is an intriguing area. Despite the fact that simulators have several limitations, there has been a significant effort in the past few years to enhance their power, as noted by [*Cao et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34824223/). The scDesign3, a newly published simulator by [*Song et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37169966/), appears to be a versatile tool that is capable of overcoming some of the limitations of other existing simulators, according to the developers.
+The validation and comparison of tools in the field of simulation is an intriguing area. Despite the fact that simulators have several limitations, there has been a significant effort in the past few years to enhance their power, as noted by [*Cao et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34824223/). The scDesign3, a simulator by [*Song et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37169966/), appears to be a versatile tool that is capable of overcoming some of the limitations of other existing simulators, according to the developers. [*GRouNdGAN*](https://emad-combine-lab.github.io/GRouNdGAN/), GRN-guided in silico simulation of single-cell RNA-seq data using Causal generative adversarial networks, is a causal implicit generative model for reference-based GRN-guided simulation of scRNA-seq [[*Zinati et al. 2024*](https://www.nature.com/articles/s41467-024-48516-6)]
 
 ### Wet lab experiment
 
