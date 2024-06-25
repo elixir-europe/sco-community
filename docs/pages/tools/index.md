@@ -9,7 +9,7 @@ group: Tools
 
 # Identifying the most appropriate and performant analysis tools
 
-A plethora of SCO tools exist, and yet standards on how to benchmark or evaluate the accuracy of each tool are lacking. Furthermore, most benchmark efforts are focused on certain cell types or tissues.
+A plethora of single-cell and spatial omics tools exist, and yet standards on how to benchmark or evaluate the accuracy of each tool are lacking. Furthermore, most benchmark efforts are focused on certain cell types or tissues.
 
 - The first goal is the identification of scRNA-seq datasets, which can be used as benchmarking cases. 
 - To facilitate findability and usability, we aim to contribute to tool registries and provide portable software environments of the most commonly used tools/workflows.
