@@ -7,7 +7,7 @@ group: Tools
 ---
 <p style="color: #f47d21">{{ page.group }}</p>
 
-# Identifying the most appropriate and performant analysis tools
+# Benchmarking analysis tools for single-cell and spatial omics data
 
 A plethora of single-cell and spatial omics tools exist, and yet standards on how to benchmark or evaluate the accuracy of each tool are lacking. Furthermore, most benchmark efforts are focused on certain cell types or tissues.
 
@@ -16,6 +16,9 @@ A plethora of single-cell and spatial omics tools exist, and yet standards on ho
 - In the long term, we aim to provide cloud deployable analysis pipelines, as well as providing curated datasets for user driven benchmark.
 
 ## Benchmarking infrastructures
+
+### [*Omnibenchmark*](https://omnibenchmark.org/)
+Omnibenchmark provides community-driven, extensible and continuously-updating benchmarks. Omnibenchmark defines, runs and versions benchmark execution pipelines by leveraging a formal benchmark specification and a set of (reusable) benchmarking modules. Each benchmarking module implements a data processing step (typically a preprocessing step, method, or metric) and is stored as an independent git repository. Anyone can start (or contribute to) a benchmark. A contribution can be a relevant ground truth dataset, a missing method or metric, or update to existing modules. Omnibenchmark relies on widely used, free and open software solutions, including: git (version control system), GitLab (DevOps), Snakemake (workflow management system), easybuild (reproducible software environments), and apptainer (containerization), among others.
 
 ### [*openEbench*](https://openebench.bsc.es/)
 OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows.
