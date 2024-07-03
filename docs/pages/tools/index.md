@@ -159,20 +159,12 @@ In total we expect produce three cell lines ratios:
 - Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
 - Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
 - Cell line 1 25%, cell line 2 25% cell line 3 10% cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%.
-  
-**Actual state of the project:** Expecting results from BE1. 
-
-**Expected data availability:** March 2024
 
 ###### BE3
 
 PC9 and DV90 cell lines will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: i) PC9 alone, ii) DV90 alone, iii) PC9/DV90 co-colture (two replicates).  PC9 alone, DV90 alone and PC9/DV90 co-colture will also be analysed in triplicates the secreted microvesicles (RNA/miRNAseq) and the bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive data set to benchmark tools devoted to the prediction of cell to cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)).
 <img border="0" src="../../images/be3.png" width="700px">
 
-
-**Actual state of the project:** Ordered 10XGenomics multi-omics kit. 
-
-**Expected data availability:** January 2024
 
 #### Spatial Omics
 
