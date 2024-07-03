@@ -11,7 +11,9 @@ group: Tools
 
 As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements is part of the "Eleven grand challenges in single-cell data science" [[*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/)].
 
+<!--
 It is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](https://www.nature.com/articles/s41467-019-09406-4), [*Decamps et al. (2021)*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04381-4), [OpenEBench](https://openebench.bsc.es/), [Omnibenchmark](https://omnibenchmark.pages.uzh.ch/omb-site/), [*Knight et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36847692/)] and datasets [[*Tian et al. (2018)*](https://www.refine.bio/experiments/SRP155039/designing-a-single-cell-rna-sequencing-benchmark-dataset-to-compare-protocols-and-analysis-methods-rnamix-sort-seq), [Refine.bio](https://www.refine.bio/)] in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
+-->
 
 ## Benchmarking infrastructures
 
