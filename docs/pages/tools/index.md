@@ -30,7 +30,7 @@ DANCE is the first standard, generic, and extensible benchmark platform for acce
 Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP) contains a suite of analytical components that can be interchanged throughout the pipeline alongside multiple benchmarking metrics that enable users to compare results and determine the optimal pipeline combinations for their data.
 
 
-## Interesting softwares
+## Selection of tools for single-cell and spatial omics
 
 ### Multi modal-omics & spatial integration
 [*SpaTrio*](https://github.com/ZJUFanLab/SpaTrio) is a computational tool based on optimal transport that can align single-cell multi-omics data in space while preserving the spatial topology of the tissue section and local geometry of modality ([Yang et al. Cell Genomics 2023](https://www.sciencedirect.com/science/article/pii/S2666979X23002811)).
