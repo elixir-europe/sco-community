@@ -9,11 +9,7 @@ group: Tools
 
 # Benchmarking analysis tools for single-cell and spatial omics data
 
-A plethora of single-cell and spatial omics tools exist, and yet standards on how to benchmark or evaluate the accuracy of each tool are lacking. Furthermore, most benchmark efforts are focused on certain cell types or tissues.
-
-- The first goal is the identification of scRNA-seq datasets, which can be used as benchmarking cases. 
-- To facilitate findability and usability, we aim to contribute to tool registries and provide portable software environments of the most commonly used tools/workflows.
-- In the long term, we aim to provide cloud deployable analysis pipelines, as well as providing curated datasets for user driven benchmark.
+As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements is part of the "Eleven grand challenges in single-cell data science" [[*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/)].
 
 ## Benchmarking infrastructures
 
@@ -71,23 +67,16 @@ Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP) contains a suite o
 ### Data imputation
 [*scBP*](https://pubmed.ncbi.nlm.nih.gov/38706317/) is a two-step graph-based feature propagation method. It initially imputes zero values using non-zero values, ensuring that the imputation process does not affect the non-zero values due to dropout. Subsequently, it denoises the entire dataset by leveraging gene-gene and cell-cell relationships in the respective steps.
 
-## Benchmark experiments
+## Benchmarking datasets
 
-Researchers in computational biology and other scientific fields often encounter the challenge of selecting the most appropriate computational methods to analyze their data. To determine the strengths of each method or to make recommendations on the best options for an analysis, benchmarking studies are conducted, which rigorously compare the performance of different methods using well-characterized benchmark datasets. However, to ensure that the results are reliable, unbiased, and informative, benchmarking studies must be carefully designed and executed. [*Weber et al. (2019)*](https://pubmed.ncbi.nlm.nih.gov/31221194/) provided a set of practical guidelines and recommendations for conducting benchmarking analyses of high quality. 
+Benchmarking data can be created in wet lab or in silico by simulators. In this section we present some wet lab experiments and introduce some simulators.
 
-As single-cell technologies continue to advance, an increasing number of analysis tools are becoming available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools.  Validating and benchmarking analysis tools for single-cell measurements is part of the "Eleven grand challenges in single-cell data science" [[*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/)].
+### Simulators for creating benchmarking data
+Despite the fact that simulators have several limitations, there has been a significant effort in the past few years to enhance their power, as noted by [*Cao et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34824223/). The scDesign3, a simulator by [*Song et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37169966/), appears to be a versatile tool that is capable of overcoming some of the limitations of other existing simulators, according to the developers. [*GRouNdGAN*](https://emad-combine-lab.github.io/GRouNdGAN/), GRN-guided in silico simulation of single-cell RNA-seq data using causal generative adversarial networks, is a causal implicit generative model for reference-based GRN-guided simulation of scRNA-seq [[*Zinati et al. 2024*](https://www.nature.com/articles/s41467-024-48516-6)]
 
-Benchmarking can be approached at two different level:
+### Wet lab experiments
 
-- In silico
-- wet lab experiment
-
-### In silico benchmark experiments
-The validation and comparison of tools in the field of simulation is an intriguing area. Despite the fact that simulators have several limitations, there has been a significant effort in the past few years to enhance their power, as noted by [*Cao et al. (2021)*](https://pubmed.ncbi.nlm.nih.gov/34824223/). The scDesign3, a simulator by [*Song et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37169966/), appears to be a versatile tool that is capable of overcoming some of the limitations of other existing simulators, according to the developers. [*GRouNdGAN*](https://emad-combine-lab.github.io/GRouNdGAN/), GRN-guided in silico simulation of single-cell RNA-seq data using Causal generative adversarial networks, is a causal implicit generative model for reference-based GRN-guided simulation of scRNA-seq [[*Zinati et al. 2024*](https://www.nature.com/articles/s41467-024-48516-6)]
-
-### Wet lab experiment
-
-Over the past few years, there has been a significant increase in the number of published single-cell omics studies, which serve as valuable resources for benchmark experiments. In particular, [*Svensson et al. (2020)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698659/) have compiled a comprehensive collection of single-cell omics datasets with manually curated metadata. As part of the implementation study of the single-cell omics community, we are creating a series of datasets specifically designed for benchmarking computational tools that focus on single-cell tumor heterogeneity.
+Over the past few years, there has been a significant increase in the number of published single-cell omics studies, which serve as valuable resources for benchmark experiments. In particular, [*Svensson et al. (2020)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698659/) have compiled a comprehensive collection of single-cell omics datasets with manually curated metadata. As part of the implementation study of the ELIXIR Single-Cell Omics Community, we created a series of datasets specifically designed for benchmarking computational tools that focus on single-cell tumor heterogeneity.
 
 
 #### Benchmark experiments addressing tumor heterogeneity
