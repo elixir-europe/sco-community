@@ -1,6 +1,6 @@
-# ELIXIR Single-cell Omics Community
+# ELIXIR Single-Cell Omics Community
 
-Welcome to our SCO community's github repository! Here, we organise and orchestrate information about single-cell and spatial transcriptomics to help researchers using these technologies. Below you can find some quick links to the different parts of the repository where you can add events or curate lists of SCO related tools, training materials, dataset and standards.
+Welcome to our Single-Cell Omics (SCO) Community's GitHub repository! Here, we organise and orchestrate information about single-cell and spatial transcriptomics to help researchers using these technologies. Below you can find some quick links to the different parts of the repository where you can add events or curate lists of SCO related tools, training materials, dataset and standards.
 
 <br>
 
