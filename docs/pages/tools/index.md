@@ -95,10 +95,10 @@ This scRNA-seq experiment embedding "controlled" cancer heterogeneity includes t
 The experiment was done using CellPlex technology from 10XGenomics allowing multiplexing samples into a single channel and therefore removing unwanted batch effects.
 
 The full experiment description is available in the paper by [*Arigoni et al 2024*](https://www.nature.com/articles/s41597-024-03002-y).
-The raw data was deposited to GEO: [*GSE243665*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665)
-The count tables from the entire BE1 experiment are available through an [*R Shiny app*](http://130.192.212.153:3838/), allowing users to construct datasets encompassing different cell lines at varying ratios. An R package providing the same functionalites of the R Shiny app is available at [*github.com/kendomaniac/BE1*](https://github.com/kendomaniac/BE1).
-Processed data are available at [*10.6084/m9.figshare.23939481*](https://doi.org/10.6084/m9.figshare.23939481.v1)
-For further information please contact raffaele dot calogero at unito dot it
+-  The raw data was deposited to GEO: [*GSE243665*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665)
+-  The count tables from the entire BE1 experiment are available through an [*R Shiny app*](http://130.192.212.153:3838/), allowing users to construct datasets encompassing different cell lines at varying ratios. An R package providing the same functionalites of the R Shiny app is available at [*github.com/kendomaniac/BE1*](https://github.com/kendomaniac/BE1).
+-  Processed data are available at [*10.6084/m9.figshare.23939481*](https://doi.org/10.6084/m9.figshare.23939481.v1)
+-  For further information please contact raffaele dot calogero at unito dot it
 
 <img border="0" src="../../images/drivers_minimal_relations.jpg" width="500px">
 
