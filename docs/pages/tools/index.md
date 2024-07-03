@@ -11,6 +11,8 @@ group: Tools
 
 As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements is part of the "Eleven grand challenges in single-cell data science" [[*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/)].
 
+It is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](https://www.nature.com/articles/s41467-019-09406-4), [*Decamps et al. (2021)*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04381-4), [OpenEBench](https://openebench.bsc.es/), [Omnibenchmark](https://omnibenchmark.pages.uzh.ch/omb-site/), [*Knight et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36847692/)] and datasets [[*Tian et al. (2018)*](https://www.refine.bio/experiments/SRP155039/designing-a-single-cell-rna-sequencing-benchmark-dataset-to-compare-protocols-and-analysis-methods-rnamix-sort-seq), [Refine.bio](https://www.refine.bio/)] in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
+
 ## Benchmarking infrastructures
 
 ### [*Omnibenchmark*](https://omnibenchmark.org/)
@@ -34,21 +36,21 @@ Despite the fact that simulators have several limitations, there has been a sign
 
 ### Wet lab experiments
 
-Over the past few years, there has been a significant increase in the number of published single-cell omics studies, which serve as valuable resources for benchmark experiments. In particular, [*Svensson et al. (2020)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698659/) have compiled a comprehensive collection of single-cell omics datasets with manually curated metadata. As part of the implementation study of the ELIXIR Single-Cell Omics Community, we created a series of datasets specifically designed for benchmarking computational tools that focus on single-cell tumor heterogeneity.
+Over the past few years, there has been a significant increase in the number of published single-cell omics studies, which serve as valuable resources for benchmark experiments. In particular, [*Svensson et al. (2020)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698659/) have compiled a comprehensive collection of single-cell omics datasets with manually curated metadata. As part of the Implementation study SCONE of the ELIXIR Single-Cell Omics Community, we created a series of datasets specifically designed for benchmarking computational tools that focus on single-cell tumor heterogeneity.
 
 
 #### Benchmark experiments addressing tumor heterogeneity
 
-[*Tumor heterogeneity*](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity), where distinct cancer cells exhibit diverse morphological and phenotypic profiles, including gene expression, metabolism, and proliferation, poses challenges for molecular prognostic markers and patient classification for targeted therapies. Various omics technologies, such as bulk [[*Babu & Snyder (2023)*](https://pubmed.ncbi.nlm.nih.gov/37119971/)] and single-cell omics [[*Flynn et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37159875/)] approaches, have enabled the characterization of diverse molecular layers at an unprecedented scale and resolution, offering a comprehensive perspective on the behavior of tumors. The integration of multiple omics datasets enables systematic exploration of diverse molecular information [[*Yue et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36723121/)] at each biological layer, but also presents challenges in extracting meaningful insights from the exponentially growing volume of multi-omics data. To address this challenge, efficient algorithms are required to dig into the data and reveal the underlying complexities of cancer's intricate biological processes. The past few years have seen a proliferation of new computational methods for analyzing single-cell omics data, which can make it challenging to select the most appropriate tool for a particular task.  As a result, it is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](https://www.nature.com/articles/s41467-019-09406-4), [*Decamps et al. (2021)*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04381-4), [OpenEBench](https://openebench.bsc.es/), [Omnibenchmark](https://omnibenchmark.pages.uzh.ch/omb-site/), [*Knight et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36847692/)] and datasets [[*Tian et al. (2018)*](https://www.refine.bio/experiments/SRP155039/designing-a-single-cell-rna-sequencing-benchmark-dataset-to-compare-protocols-and-analysis-methods-rnamix-sort-seq), [Refine.bio](https://www.refine.bio/)] in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
+Distinct cancer cells exhibit diverse morphological and phenotypic profiles, including gene expression, metabolism, and proliferation. This [*tumor heterogeneity*](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity) poses challenges for molecular prognostic markers and patient classification for targeted therapies. Various omics technologies, such as bulk [[*Babu & Snyder (2023)*](https://pubmed.ncbi.nlm.nih.gov/37119971/)] and single-cell omics [[*Flynn et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/37159875/)] approaches, have enabled the characterization of diverse molecular layers at an unprecedented scale and resolution, offering a comprehensive perspective on the behavior of tumors. The integration of multiple omics datasets enables systematic exploration of diverse molecular information [[*Yue et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36723121/)] at each biological layer, but also presents challenges in extracting meaningful insights from the exponentially growing volume of multi-omics data. To address this challenge, efficient algorithms are required to dig into the data and reveal the underlying complexities of cancer's intricate biological processes. 
 
-##### Healthy and diseases published single cell datasets
+##### Healthy and disease single-cell datasets
 
-[*CELLxGENE*](https://cellxgene.cziscience.com/datasets) is a suite of tools that help scientists to find, download, explore, analyze, annotate, and publish single cell datasets. it is characterised by the possibility to download a wide set of published single cell experiments as h5 or seurat (v3) format. 
+[*CELLxGENE*](https://cellxgene.cziscience.com/datasets) is a suite of tools that help scientists to find, download, explore, analyze, annotate, and publish single-cell datasets. It allows users to download a wide set of published single-cell experiments as h5 or seurat (v3) format. 
 
 [*CellCommuNet*](http://www.inbirg.com/cellcommunet/) is an atlas of cell–cell communication networks from single-cell RNA sequencing data of human and mouse tissues in normal and disease states [[*Ma et al. NAR 2024*](https://academic.oup.com/nar/article/52/D1/D597/7321072)].
 
-##### Tian et al. (2019) dataset
-As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they created ‘pseudo cells’ from up to five distinct human lung adenocarcinoma cell lines. GEO dataset [GSM3618014](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3618014)] contains the mixture of five cell lines: 
+##### Lung adenocarcinoma cell line mixture 
+‘Pseudo cells’ were created from to five distinct human lung adenocarcinoma cell lines by [*Tian et al 2019*](https://pubmed.ncbi.nlm.nih.gov/31133762/). GEO dataset [GSM3618014](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3618014)] contains the mixture of five cell lines: 
 
 - H2228 (PTPN3 KO [[*Jung et al (2012)*](https://pubmed.ncbi.nlm.nih.gov/22334442/)], EML4-ALK Fusion [[*Isozaki et al (2015)*]](https://pubmed.ncbi.nlm.nih.gov/26719536/))
 - H1975 (EGFR L858R and T790M mutations [[*Zhao et al. 2015*](https://pubmed.ncbi.nlm.nih.gov/25483995/)])
@@ -56,11 +58,10 @@ As part of [*their article*](https://pubmed.ncbi.nlm.nih.gov/31133762/) they cre
 - H838 (KRASp.G12D [[[*Wang et al. (2019)*](https://pubmed.ncbi.nlm.nih.gov/31484165/)])
 - HCC827 (EGFR L858R mutation [[*Juchum et al. (2015)*](https://www.sciencedirect.com/topics/medicine-and-dentistry/hcc827-cell-line)])
 
-Data were generated using 10XGenomics v2 chemistry.
-The raw count table was provided without the association of the cell lines to each cell. We have assigned the cell line name to each cell via the similarity between single cell clusters and cell lines bulk data from CCLE database. The annotated count table and the full procedure used for the annotation are present a figshare dataset [[doi.org/10.6084/m9.figshare.23274413.v1](https://doi.org/10.6084/m9.figshare.23274413.v1)]
+Data were generated using 10XGenomics v2 chemistry. The raw count table was provided without the association of the cell lines to each cell. We have assigned the cell line name to each cell via the similarity between single-cell clusters and cell lines bulk data from CCLE database. The annotated count table and the full procedure used for the annotation are present a figshare dataset [[doi.org/10.6084/m9.figshare.23274413.v1](https://doi.org/10.6084/m9.figshare.23274413.v1)]
 
-##### PC9 dataset
-In GEO NCBI repository are available single cell data on PC9 untreated lung cancer cell line done in two different labs, using both 10XGenomics and Drop-seq platforms and produced from in vitro culture or xenograph experiments.
+##### PC9 lung cancer datasets
+In NCBI's GEO repository are available single-cell data on PC9 untreated lung cancer cell line done in two different labs, using both 10XGenomics and Drop-seq platforms and produced from in vitro culture or xenograph experiments.
 
 - set1: GSM3972657 PC9 in vitro dropseq Chicago (2500 cells)
 - set2: GSM4494347 PC9 in vitro dropseq Chicago (12000 cells)
@@ -72,15 +73,15 @@ In GEO NCBI repository are available single cell data on PC9 untreated lung canc
 
 These datasets, because of their differences, i.e. platforms, growth, labs, represent an ideal instrument to benchmark batch removal methods as well as integration methods. The seven sets are available as datasets with the same gene annotation (ensemblID:Symbol). Each set has the cellID with the extension _s(1:5) and set6 has two extensions _s6PC9 and _s6U937. These datasets and the script used for annotation are available as figshare repository ([*10.6084/m9.figshare.23626407*](https://figshare.com/articles/dataset/PC9_cell_line_scRNAseq_datasets/23626407)). 
 
-##### 77 annotated scRNAseq tumor datasets
-Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/37258682/)] have recenty curated, annotated and integrated the data from 77 different single cell transcriptomics studies encompassing a total of 1,163 tumour samples covering 24 tumour types and more than 23 milions cells. The data are accessible at [**3CA site**](https://www.weizmann.ac.il/sites/3CA/).
+##### 77 annotated scRNA-seq tumor datasets
+Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/37258682/)] have curated, annotated and integrated the data from 77 different single-cell transcriptomics studies encompassing a total of 1163 tumour samples covering 24 tumour types and more than 23 million cells. The data are accessible at [**3CA site**](https://www.weizmann.ac.il/sites/3CA/).
 
-##### SCONE datasets
-As part of the Single Cell Community implementation study we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
+##### SCONE cancer heterogeneity datasets
+As part of the Single-Cell Omics Community's Implementation study SCONE we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
 
-###### BE1 ([*A single cell RNAseq benchmark experiment embedding "controlled" cancer heterogeneity*](https://pubmed.ncbi.nlm.nih.gov/38307867/))
+###### BE1 ([*A single-cell RNA-seq experiment embedding "controlled" cancer heterogeneity*](https://pubmed.ncbi.nlm.nih.gov/38307867/))
 
-We have done a 10XGenomics scRNAseq experiment including the following elements:
+We have done a 10XGenomics scRNA-seq experiment including the following elements:
 
 -  PC9, 4492 sequenced cells (EGFR Del19, activating mutation, PMID: [*Simonetti et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/21167064/) 
 -  A549, 6898 sequenced cells (KRAS p.G12S, growth and proliferation,  PMID: [*Yoon et al. (2010)*](https://pubmed.ncbi.nlm.nih.gov/20358631/) 
@@ -111,8 +112,7 @@ For further information please contact **raffaele dot calogero at unito dot it**
 
 ###### BE2
 
-The cell lines from for BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding in matrigel pools of the 7 cell lines at different ratios. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and  six slides using [*Curio Bioscience*](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. 
-In total we expect produce three cell lines ratios:
+The cell lines from for BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding in matrigel pools of the 7 cell lines at different ratios. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and six slides using [*Curio Bioscience*](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. In total we expect produce three cell line ratios:
   
 - Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
 - Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
@@ -120,7 +120,7 @@ In total we expect produce three cell lines ratios:
 
 ###### BE3
 
-PC9 and DV90 cell lines will be used to generate combined scRNAseq and scATACseq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: i) PC9 alone, ii) DV90 alone, iii) PC9/DV90 co-colture (two replicates).  PC9 alone, DV90 alone and PC9/DV90 co-colture will also be analysed in triplicates the secreted microvesicles (RNA/miRNAseq) and the bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive data set to benchmark tools devoted to the prediction of cell to cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)).
+PC9 and DV90 cell lines will be used to generate combined scRNA-seq and scATAC-seq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: i) PC9 alone, ii) DV90 alone, iii) PC9/DV90 co-colture (two replicates).  PC9 alone, DV90 alone and PC9/DV90 co-colture will also be analysed in triplicates the secreted microvesicles (RNA/miRNAseq) and the bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive dataset to benchmark tools devoted to the prediction of cell to cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)).
 <img border="0" src="../../images/be3.png" width="700px">
 
 
@@ -132,7 +132,7 @@ Spatial Omics DataBase ([SODB](https://www.nature.com/articles/s41592-023-01773-
 ##### [STOmicsDB](https://db.cngb.org/stomics/)
 Spatial Transcript Omics DataBase (STOmics DB) is a comprehensive repository of literature and Datasets related to spatial transcriptomics topics, and provides convenient tools for Data analysis, search and visualization ([Xu et al. NAR 2023](https://academic.oup.com/nar/article/52/D1/D1053/7416388)).
 
-##### [Crost](https://ngdc.cncb.ac.cn/crost/home)
+##### [CROST](https://ngdc.cncb.ac.cn/crost/home)
 CROST offers single-sample analysis, interactive visualization, multi-omics integration for exploring cancer svg, and other powerful tools for spatial transcriptomics researches ([Wang et al. NAR 2023](https://academic.oup.com/nar/article/52/D1/D882/7288834)).
 
 ##### [SpatialDB](https://www.spatialomics.org/SpatialDB/)
