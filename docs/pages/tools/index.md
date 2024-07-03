@@ -81,7 +81,7 @@ Gavish and collaborators [[*Nature 2023*](https://pubmed.ncbi.nlm.nih.gov/372586
 ##### SCONE cancer heterogeneity datasets
 As part of the Single-Cell Omics Community's Implementation study SCONE we are focusing in providing a set of benchmark experiments to address the extraction of biological knowledge from "controlled" cancer heterogeneity.
 
-###### BE1 ([*scRNA-seq experiment embedding "controlled" cancer heterogeneity*](https://pubmed.ncbi.nlm.nih.gov/38307867/))
+###### BE1
 
 This scRNA-seq experiment embedding "controlled" cancer heterogeneity includes the following elements:
 
