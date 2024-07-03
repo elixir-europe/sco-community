@@ -122,7 +122,7 @@ PC9 and DV90 cell lines will be used to generate combined scRNA-seq and scATAC-s
 <img border="0" src="../../images/be3.png" width="700px">
 
 
-#### Spatial Omics
+#### Spatial omics datasets
 
 ##### [SODB](https://gene.ai.tencent.com/SpatialOmics/)
 Spatial Omics DataBase ([SODB](https://www.nature.com/articles/s41592-023-01773-7)) is a comprehensive database designated for general spatial omics data. SODB provides: Various spatial omics data modalities, including spatially resolved transcriptomics, proteomics, metabolomics, genomics and multi-omics.
