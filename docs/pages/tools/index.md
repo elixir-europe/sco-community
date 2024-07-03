@@ -32,7 +32,7 @@ Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP) contains a suite o
 
 ## Selection of tools for single-cell and spatial omics
 
-### Multi modal-omics & spatial integration
+### Multimodal omics & spatial integration
 [*SpaTrio*](https://github.com/ZJUFanLab/SpaTrio) is a computational tool based on optimal transport that can align single-cell multi-omics data in space while preserving the spatial topology of the tissue section and local geometry of modality ([Yang et al. Cell Genomics 2023](https://www.sciencedirect.com/science/article/pii/S2666979X23002811)).
 
 [*VortRon*](https://github.com/BIMSBbioinfo/VoltRon) is a spatial omic analysis toolbox for multi-omics integration using spatial image registration. VoltRon is also capable of analyzing multiple types of spatially-aware data modalities.
@@ -58,10 +58,7 @@ Integrated Benchmarking scRNA-seq Analytical Pipeline (IBRAP) contains a suite o
 [*PERCEPTION*](https://www.nature.com/articles/s43018-024-00756-7), PERsonalized Single-Cell Expression-Based Planning for Treatments In ONcology, is a precision oncology computational pipeline. PERCEPTION uses publicly available matched bulk and single-cell (sc) expression profiles from large-scale cell-line drug screens. These profiles help build treatment response models based on patients’ sc-tumor transcriptomics. PERCEPTION is available at [*ruppinlab/PERCEPTION GithHUb*](https://github.com/ruppinlab/PERCEPTION).
 
 ### Innovative clustering approaches
-[*scDAC*](https://pubmed.ncbi.nlm.nih.gov/38603616/) is deep adaptive clustering method coupling the Autoencoder (AE) and the Dirichlet Process Mixture Model (DPMM). [*labomics/scDAC GitHub*](https://github.com/labomics/scDAC)
-
-### Reproducibility softwares
-[*CREDO*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-024-05695-9), a Customizable, REproducible, DOcker file generator for bioinformatics applications, has been developed as a tool to moderate reproducibility issues by building and distributing docker containers with embedded bioinformatics tools. CREDO simplifies the process of generating Docker images, facilitating reproducibility and efficient research in bioinformatics. The crucial step in generating a Docker image is creating the Dockerfile, which requires incorporating heterogeneous packages and environments such as Bioconductor and Conda. CREDO stores all required package information and dependencies in a Github-compatible format to enhance Docker image reproducibility, allowing easy image creation from scratch. The [*user-friendly GUI*](https://github.com/alessandriLuca/CREDOgui) and [*CREDO's ability to generate modular Docker images*](https://github.com/alessandriLuca/CREDOengine) make it an ideal tool for life scientists to efficiently create Docker images. 
+[*scDAC*](https://pubmed.ncbi.nlm.nih.gov/38603616/) is deep adaptive clustering method coupling the Autoencoder (AE) and the Dirichlet Process Mixture Model (DPMM). [*labomics/scDAC GitHub*](https://github.com/labomics/scDAC) 
 
 ### Cell type annotation tools
 
