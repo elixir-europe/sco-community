@@ -9,7 +9,14 @@ group: Tools
 
 # Benchmarking analysis tools for single-cell and spatial omics data
 
-As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements is part of the "Eleven grand challenges in single-cell data science" [[*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/)].
+As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements has been listed as one of the "Eleven grand challenges in single-cell data science" by [*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/).
+
+The ELIXIR Single-Cell Omics Community facilitates benchmarks, sets standards of evaluation, and engages with the community to benchmark particular tasks. For example, we organized [*SpaceHack 2.0*] (https://www.denbi.de/de-nbi-events/1608-spacehack-2-0) which included the following focus areas, among others:
+-  investigating evaluation metric (e.g. ARI, NMI) with a focus on novel metrics and qualitative interpretation
+-  community benchmarking via Omnibenchmark
+-  reference datasets across technologies (e.g. Visum, Xenium, Slide-seq, MERFISH) and tissues (e.g. DLPFC, hippocampus, olfactory bulb, liver)
+
+This page provides a brief introduction to benchmarking infrastructures and datasets.
 
 <!--
 It is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](https://www.nature.com/articles/s41467-019-09406-4), [*Decamps et al. (2021)*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04381-4), [OpenEBench](https://openebench.bsc.es/), [Omnibenchmark](https://omnibenchmark.pages.uzh.ch/omb-site/), [*Knight et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36847692/)] and datasets [[*Tian et al. (2018)*](https://www.refine.bio/experiments/SRP155039/designing-a-single-cell-rna-sequencing-benchmark-dataset-to-compare-protocols-and-analysis-methods-rnamix-sort-seq), [Refine.bio](https://www.refine.bio/)] in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
@@ -20,7 +27,7 @@ It is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](http
 ### [*Omnibenchmark*](https://omnibenchmark.org/)
 Omnibenchmark provides community-driven, extensible and continuously-updating benchmarks. Omnibenchmark defines, runs and versions benchmark execution pipelines by leveraging a formal benchmark specification and a set of (reusable) benchmarking modules. Each benchmarking module implements a data processing step (typically a preprocessing step, method, or metric) and is stored as an independent git repository. Anyone can start (or contribute to) a benchmark. A contribution can be a relevant ground truth dataset, a missing method or metric, or update to existing modules. Omnibenchmark relies on widely used, free and open software solutions, including: git (version control system), GitLab (DevOps), Snakemake (workflow management system), easybuild (reproducible software environments), and apptainer (containerization), among others.
 
-### [*openEbench*](https://openebench.bsc.es/)
+### [*openEBench*](https://openebench.bsc.es/)
 OpenEBench is the ELIXIR benchmarking and technical monitoring platform for bioinformatics tools, web servers and workflows.
 
 ### [*DANCE*](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03211-z)
