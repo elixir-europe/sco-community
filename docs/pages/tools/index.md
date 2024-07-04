@@ -115,6 +115,7 @@ The cell lines from for BE1 will be used to generate surrogate tumor-tissues for
 - Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
 - Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
 - Cell line 1 25%, cell line 2 25% cell line 3 10% cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%
+
 Expected data availability: December 2024
 
 ###### BE3
