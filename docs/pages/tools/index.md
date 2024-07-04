@@ -11,7 +11,7 @@ group: Tools
 
 As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements has been listed as one of the "Eleven grand challenges in single-cell data science" by [*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/).
 
-The ELIXIR Single-Cell Omics Community facilitates benchmarks, sets standards of evaluation, and engages with the community to benchmark particular tasks. For example, we organized [*SpaceHack 2.0*](https://www.denbi.de/de-nbi-events/1608-spacehack-2-0) which included the following focus areas, among others:
+The [ELIXIR Single-Cell Omics Community](https://elixir-europe.org/communities/single-cell-omics) facilitates benchmarks, sets standards of evaluation, and engages with the community to benchmark particular tasks. For example, we organized [*SpaceHack 2.0*](https://www.denbi.de/de-nbi-events/1608-spacehack-2-0) which included the following focus areas, among others:
 -  investigating evaluation metric (e.g. ARI, NMI) with a focus on novel metrics and qualitative interpretation
 -  community benchmarking via Omnibenchmark
 -  reference datasets across technologies (e.g. Visum, Xenium, Slide-seq, MERFISH) and tissues (e.g. DLPFC, hippocampus, olfactory bulb, liver)
