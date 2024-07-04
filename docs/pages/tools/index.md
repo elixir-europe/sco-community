@@ -11,7 +11,7 @@ group: Tools
 
 As single-cell and spatial technologies continue to advance, an increasing number of analysis tools become available to researchers. Consequently, there is a growing need for datasets and methods that support systematic benchmarking and evaluation of these tools. Validating and benchmarking analysis tools for single-cell measurements has been listed as one of the "Eleven grand challenges in single-cell data science" by [*Lähnemann et al. (2020)*](https://pubmed.ncbi.nlm.nih.gov/32033589/).
 
-The [ELIXIR Single-Cell Omics Community](https://elixir-europe.org/communities/single-cell-omics) facilitates benchmarks, sets standards of evaluation, and engages with the community to benchmark particular tasks. For example, we organized [*SpaceHack 2.0*](https://www.denbi.de/de-nbi-events/1608-spacehack-2-0) which included the following focus areas, among others:
+The [*ELIXIR Single-Cell Omics Community*](https://elixir-europe.org/communities/single-cell-omics) facilitates benchmarks, sets standards of evaluation, and engages with the community to benchmark particular tasks. For example, we organized [*SpaceHack 2.0*](https://www.denbi.de/de-nbi-events/1608-spacehack-2-0) which included the following focus areas, among others:
 -  investigating evaluation metric (e.g. ARI, NMI) with a focus on novel metrics and qualitative interpretation
 -  community benchmarking via Omnibenchmark
 -  reference datasets across technologies (e.g. Visum, Xenium, Slide-seq, MERFISH) and tissues (e.g. DLPFC, hippocampus, olfactory bulb, liver)
@@ -133,7 +133,7 @@ PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC
 -  PC9/DV90 co-culture (two replicates)
 
 All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: October 2024.
-<img border="0" src="../../images/be3.png" width="700px">
+<img border="0" src="../../images/be3.png" width="500px">
 
 
 
