@@ -135,8 +135,7 @@ PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC
 All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: October 2024.
 
 <img border="0" src="../../images/be3.png" width="500px">
-
-
+In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated Ingenuity pathways analysis tool (Qiagen).
 
 #### Spatial omics datasets
 
@@ -154,6 +153,9 @@ SpatialDB is a public database that specifically curates spatially resolved tran
 
 ##### [SOAR](https://soar.fsm.northwestern.edu/)
 SOAR is a comprehensive database of 304 spatial transcriptomics datasets from 11 species across 40 tissue types.
+
+##### [High resolution mapping of the breast cancer tumor microenvironment using integrated single cell, spatial and in situ analysis of FFPE tissue](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast)
+This dataset explores tissue heterogeneity in large, FFPE human breast cancer sections, integrating spatial analysis and single cell RNAseq, ([*Janesick et al Nat. Comm. 2023*](https://pubmed.ncbi.nlm.nih.gov/38114474/)). Raw data are available at GEO repository [*GSE243280*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243280).
 
 
 
