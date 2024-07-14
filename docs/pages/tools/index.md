@@ -135,7 +135,7 @@ PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC
 All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: October 2024.
 
 <img border="0" src="../../images/be3.png" width="500px">
-In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated Ingenuity pathways analysis tool (Qiagen).
+In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated using Ingenuity pathways analysis tool (Qiagen).
 
 #### Spatial omics datasets
 
