@@ -58,6 +58,22 @@ Distinct cancer cells exhibit diverse morphological and phenotypic profiles, inc
 
 [*CellCommuNet*](http://www.inbirg.com/cellcommunet/) is an atlas of cell–cell communication networks from single-cell RNA sequencing data of human and mouse tissues in normal and disease states [[*Ma et al. NAR 2024*](https://academic.oup.com/nar/article/52/D1/D597/7321072)].
 
+[*3CA*](https://www.weizmann.ac.il/sites/3CA/) is the pan-cancer single-cell RNA-sequencing dataset focusing on intratumour heterogeneity associated to [Gavish et al Nature 2023](https://pubmed.ncbi.nlm.nih.gov/37258682/) paper.
+
+[*IMMUcan scDB*](https://immucanscdb.vital-it.ch/) is a fully integrated scRNA-seq database exclusively dedicated to human cancer. IMMUcan scDB encompasses 144 datasets on 56 different cancer types, annotated in 50 fields containing precise clinical, technological, and biological information [[Camps et al. Cancer Res. 2023](https://pubmed.ncbi.nlm.nih.gov/36459564/)].
+
+[*TISCH2*](http://tisch.comp-genomics.org/) is s a scRNA-seq database focusing on tumor microenvironment (TME). TISCH2 provides detailed cell-type annotation at the single-cell level, enabling the exploration of TME across different cancer types.
+
+[*DISCO*](https://www.immunesinglecell.org/) stores a manually curated selection of publicly available datasets, comprising more than 9000 samples, within the repository. These samples are pre-processed by re-aligning to a single reference genome and undergo a rigorous cell level quality control (QC) pipeline, which filters out samples based on mitochondrial mRNA counts, unique feature counts, and cell numbers using an automated algorithm. It also provides manual metadata curation, harmonizing the metadata across datasets.
+
+[*PanglaoDB*](https://panglaodb.se/) is a database for the scientific community interested in exploration of single cell RNA sequencing experiments from mouse and human. It integrates data from multiple studies and present them through a unified framework.
+
+[*SPICA*](https://spica.unil.ch/) is the Swiss Portal for Immune Cell Analysis.
+
+[*Broad Single Cell Portal*](https://singlecell.broadinstitute.org/single_cell) Broad institute single cell portal.
+
+
+
 ##### Lung adenocarcinoma cell line mixture 
 ‘Pseudo cells’ were created from to five distinct human lung adenocarcinoma cell lines by [*Tian et al 2019*](https://pubmed.ncbi.nlm.nih.gov/31133762/). GEO dataset [GSM3618014](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3618014)] contains the mixture of five cell lines: 
 
