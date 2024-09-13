@@ -54,7 +54,7 @@ Below you can find a list of course and other training-related events from our c
 
 ## Existing materials
 
-Below you can find a list of course instances collected by the recent SCO ELIXIR community survey:
+Below you can find a list of course instances collected by the recent training survey conducted by the ELIXIR Single-Cell Omics Community. These courses have materials inc. slides and exercises available online, some of them provide recorded lectures too.
 
 <br>
 
