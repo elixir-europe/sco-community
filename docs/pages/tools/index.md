@@ -126,18 +126,7 @@ The above figure describes the driver genes associated to each cell line. Only a
 <img border="0" src="../../images/be1.png" width="700px">
 The above figure shows the sequencing statistics of the 7 cell lines.
 
-
 ###### BE2
-
-The cell lines from BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding pools of the 7 cell lines at different ratios in matrigel. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and six slides using [*Curio Bioscience*](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. In total we expect to produce three cell line ratios:
-  
-- Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
-- Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
-- Cell line 1 25%, cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%
-
-Expected data availability: December 2024
-
-###### BE3
 
 PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC-seq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: 
 -  PC9 alone
@@ -148,6 +137,16 @@ All three experiments will also be analysed in triplicates for secreted microves
 
 <img border="0" src="../../images/be3.png" width="500px">
 In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated using Ingenuity pathways analysis tool (Qiagen).
+
+###### BE3
+
+The cell lines from BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding pools of the 7 cell lines at different ratios in matrigel. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and six slides using [*Curio Bioscience*](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. In total we expect to produce three cell line ratios:
+  
+- Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
+- Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
+- Cell line 1 25%, cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%
+
+Expected data availability: December 2024
 
 #### Spatial omics datasets
 
