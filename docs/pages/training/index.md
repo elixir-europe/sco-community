@@ -27,16 +27,13 @@ As described in our white paper[^1], we aim at
 _"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles. We will collaborate with ELIXIR’s Training Portal TeSS to establish a well-curated SCO training portal, listing national and international training providers, web resources and upcoming training events."_ 
 
 <br>
-
-
-
 <br>
 
 ***
 
-## Our training events
+## Our events
 
-Below you can find a list of course and other training-related events from our community.
+Below you can find a list of our courses and workshops.
 
 <br>
 
@@ -48,6 +45,11 @@ Below you can find a list of course and other training-related events from our c
 - [Go to event page]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
 - *Geneva, Switzerland*
 - *21-23 Mar 2023*
+
+**Workshop for Single-Cell RNA-seq data analysis trainers**
+- [Go to event page](https://ssl.eventilla.com/event/xP1QM))
+- *online*
+- *30 Nov 2021*
 
 <br>
 
