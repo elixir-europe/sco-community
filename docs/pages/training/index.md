@@ -19,7 +19,7 @@ Our main goals regarding training are:
 
 <br>
 
-_"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles. We will collaborate with ELIXIR’s Training Portal TeSS65 to establish a well-curated SCO training portal, listing national and international training providers, web resources and upcoming training events."_ [^1]
+_"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles. We will collaborate with ELIXIR’s Training Portal TeSS to establish a well-curated SCO training portal, listing national and international training providers, web resources and upcoming training events."_ [^1]
 
 <br>
 
@@ -35,12 +35,9 @@ Below you can find a list of course and other training-related events from our c
 
 <br>
 
-**ELIXIR-GOBLET Train-the-Trainer May 2023**
-- [Go to event page](https://elixiruknode.org/events/2023/elixir-goblet-train-the-trainer-may-2023/)
-- *Online*
-- *This course has been postponed to Q4/2023. More information will be displayed here in due time.*
-
-<br>
+**Course Spatial transcriptomics data analysis**
+- *Lausanne, Switzerland*
+- *21-24 Jan 2025*
 
 **Workshop for Single-Cell Omics data analysis trainers**
 - [Go to event page]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
@@ -52,7 +49,7 @@ Below you can find a list of course and other training-related events from our c
 ***
 
 
-## Existing materials
+## Training materials
 
 Below you can find a list of course instances collected by the recent training survey conducted by the ELIXIR Single-Cell Omics Community. These courses have materials inc. slides and exercises available online, some of them provide recorded lectures too.
 
