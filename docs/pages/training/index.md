@@ -13,17 +13,22 @@ group: Training
 
 <br>
 
-## Our Goals
+## Our activities
 
-Our main goals regarding training are:
+New measurement technologies and analysis methods keep coming and consequently the need for data analysis training is acute. Our efforts to plug the skills gap in single-cell and spatial omics analysis include:
+- organizing workshops for single-cell and spatial omics data analysis trainers. This allows sharing experiences on topics, training methods, data sets etc.
+- conducting training gap surveys to understand what topics are taught, where is the rising need? We also collect links to training materials and data sets.
+- providing a collection of training materials
+- organizing courses which are recorded
+
 
 <br>
-
+As described in our white paper[^1], we aim at
 _"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles. We will collaborate with ELIXIR’s Training Portal TeSS to establish a well-curated SCO training portal, listing national and international training providers, web resources and upcoming training events."_ [^1]
 
 <br>
 
-Please refer to our white paper[^1], where we describe and identify the challenges related to training in Single-Cell and Spatial Omics, and how our community will help fill those needs.
+
 
 <br>
 
