@@ -31,9 +31,7 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 
 ***
 
-## Our events
-
-Below you can find a list of our courses and workshops.
+## Our courses and workshops
 
 <br>
 
