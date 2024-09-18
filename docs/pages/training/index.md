@@ -47,7 +47,7 @@ Below you can find a list of our courses and workshops.
 - *21-23 Mar 2023*
 
 **Workshop for Single-Cell RNA-seq data analysis trainers**
-- [Go to event page](https://ssl.eventilla.com/event/xP1QM))
+- [Go to event page](https://ssl.eventilla.com/event/xP1QM)
 - *online*
 - *30 Nov 2021*
 
