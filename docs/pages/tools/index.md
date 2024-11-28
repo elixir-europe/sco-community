@@ -168,6 +168,9 @@ SOAR is a comprehensive database of 304 spatial transcriptomics datasets from 11
 ##### [High resolution mapping of the breast cancer tumor microenvironment using integrated single cell, spatial and in situ analysis of FFPE tissue](https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast)
 This dataset explores tissue heterogeneity in large, FFPE human breast cancer sections, integrating spatial analysis and single cell RNAseq, ([*Janesick et al Nat. Comm. 2023*](https://pubmed.ncbi.nlm.nih.gov/38114474/)). Raw data are available at GEO repository [*GSE243280*](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243280).
 
+##### [Museum of Spatial Transcriptomics](https://docs.google.com/spreadsheets/d/1sJDb9B7AtYmfKv4-m8XR7uc3XXw_k4kGSout8cqZ8bY/edit?gid=1363594152#gid=1363594152) 
+A curated review of literature on spatial transcriptomics dating back to 1987 [[Lambda Moses & Lior Pachter Nature Meth. 2022](https://www.nature.com/articles/s41592-022-01409-2)]
+
 
 
 
