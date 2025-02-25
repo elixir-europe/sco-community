@@ -47,8 +47,8 @@ Despite the fact that simulators have several limitations, there has been a sign
 
 Over the past few years, there has been a significant increase in the number of published single-cell omics studies, which serve as valuable resources for benchmark experiments. In particular, [*Svensson et al. (2020)*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7698659/) have compiled a comprehensive collection of single-cell omics datasets with manually curated metadata. As part of the Implementation study SCONE of the ELIXIR Single-Cell Omics Community, we created a series of datasets specifically designed for benchmarking computational tools that focus on single-cell tumor heterogeneity.
 
-#### HubMAP consortium(https://hubmapconsortium.org/)
-HubMAP created an open, global atlas of the human body at the cellular level. The focus of HuBMAP is understanding the intrinsic intra-, inter-, and extra- cellular biomolecular distribution in human tissue. HuBMAP will focus on fresh, fixed, or frozen healthy human tissue using in situ and dissociative techniques that have high-spatial resolution.
+#### HubMAP consortium
+[*HubMAP*](https://hubmapconsortium.org/) created an open, global atlas of the human body at the cellular level. The focus of HuBMAP is understanding the intrinsic intra-, inter-, and extra- cellular biomolecular distribution in human tissue. HuBMAP will focus on fresh, fixed, or frozen healthy human tissue using in situ and dissociative techniques that have high-spatial resolution.
 
 #### Benchmark experiments addressing tumor heterogeneity
 
