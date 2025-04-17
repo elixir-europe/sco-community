@@ -136,22 +136,13 @@ The above figure shows the sequencing statistics of the 7 cell lines.
 PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC-seq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: 
 -  PC9 alone
 -  DV90 alone
--  PC9/DV90 co-culture (two replicates)
+-  PC9/DV90 co-culture
 
-All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: October 2024.
+All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. At single cell level we performed one experiment for each of the above conditions using the multiomics platform from 10Xgenomics (scnRNAseq and scATAC), the scRNAseq (Illumina platform) and only for the PC9/DV90 co-culture we also simulated a pseudo-tissue and we performed on it a scRNAseq spatial analysis (Curio Bioscience platform). The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: All data are available, publication in preparation.
 
 <img border="0" src="../../images/be3.png" width="500px">
 In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated using Ingenuity pathways analysis tool (Qiagen).
 
-###### BE3
-
-The cell lines from BE1 will be used to generate surrogate tumor-tissues for spatial transcriptomics, by embedding pools of the 7 cell lines at different ratios in matrigel. For each cell ratio we will generate a slide (2 sections) using Visium for FFPE samples and six slides using [*Curio Bioscience*](https://curiobioscience.com/product/) spatial platform for OTC fresh frozen samples. In total we expect to produce three cell line ratios:
-  
-- Cell line 1 40%, cell line 2 25% cell line 3 20%, cell line 4 5%, PBMC 10%
-- Cell line 1 45% cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 5 5%, PBMC 5%
-- Cell line 1 25%, cell line 2 25%, cell line 3 10%, cell line 4 10%, cell line 4 10%, cell line 5 5%, cell line 6 5%, cell line 7 5%, PBMC 5%
-
-Expected data availability: December 2024
 
 #### Spatial omics datasets
 
