@@ -133,12 +133,13 @@ The above figure shows the sequencing statistics of the 7 cell lines.
 
 ###### BE2
 
-PC9 and DV90 cell lines will be used to generate a combined scRNA-seq and scATAC-seq experiment using [*10X genomics technology for multi-omics*](https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression). Specifically we will generate three experiments: 
+PC9 and DV90 cell lines were used to generate a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Specifically we will generate three experiments: 
 -  PC9 alone
 -  DV90 alone
 -  PC9/DV90 co-culture
 
-All three experiments will also be analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. At single cell level we performed one experiment for each of the above conditions using the multiomics platform from 10Xgenomics (scnRNAseq and scATAC), the scRNAseq (Illumina platform) and only for the PC9/DV90 co-culture we also simulated a pseudo-tissue and we performed on it a scRNAseq spatial analysis (Curio Bioscience platform). The idea is to provide a comprehesive dataset to benchmark tools for the prediction of cell-to-cell crosstalk ([*Xie et al. 2023*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10452151/), [*Zhang et al. 2023*](https://pubmed.ncbi.nlm.nih.gov/37735248/)). Expected data availability: All data are available, publication in preparation.
+All three experiments were analysed in triplicates for secreted microvesicles (RNA/miRNAseq) and bulk intracellular RNA/miRNAseq. At single cell level we performed one experiment for each of the above conditions using the multiomics platform from 10Xgenomics (scnRNAseq and scATAC), the scRNAseq (Illumina platform) and only for the PC9/DV90 co-culture we also simulated a pseudo-tissue and we performed on it a scRNAseq spatial analysis (Curio Bioscience platform). 
+Expected data availability: All data are now available, publication is in preparation.
 
 <img border="0" src="../../images/be3.png" width="500px">
 In the above picture, the potential cross talk between PC9 and DV90 driver genes, mediated by soluble molecules, are shown. Data were generated using Ingenuity pathways analysis tool (Qiagen).
