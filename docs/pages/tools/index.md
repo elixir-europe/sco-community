@@ -16,7 +16,7 @@ The [*ELIXIR Single-Cell Omics Community*](https://elixir-europe.org/communities
 -  community benchmarking via Omnibenchmark
 -  reference datasets across technologies (e.g. Visum, Xenium, Slide-seq, MERFISH) and tissues (e.g. DLPFC, hippocampus, olfactory bulb, liver)
 
-This page provides a brief introduction to benchmarking infrastructures and datasets.
+This page provides a brief introduction to benchmarking infrastructures and datasets. You can find a list of some analysis tools for single-cell and spatial data [here](toolselection.md).
 
 <!--
 It is crucial to establish benchmarking platforms [[*Mangul et al. (2019)*](https://www.nature.com/articles/s41467-019-09406-4), [*Decamps et al. (2021)*](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04381-4), [OpenEBench](https://openebench.bsc.es/), [Omnibenchmark](https://omnibenchmark.pages.uzh.ch/omb-site/), [*Knight et al. (2023)*](https://pubmed.ncbi.nlm.nih.gov/36847692/)] and datasets [[*Tian et al. (2018)*](https://www.refine.bio/experiments/SRP155039/designing-a-single-cell-rna-sequencing-benchmark-dataset-to-compare-protocols-and-analysis-methods-rnamix-sort-seq), [Refine.bio](https://www.refine.bio/)] in order to create a controlled environment for the validation of bioinformatics tools in the field of single-cell omics analysis.
