@@ -10,7 +10,9 @@ group: About
 
 # ELIXIR Single-Cell Omics Community
 
-Please find an overview at the [ELIXIR Community site](https://elixir-europe.org/communities/single-cell-omics) where you can also join us.
+### Overview
+
+Please find an overview at the [ELIXIR Community site](https://elixir-europe.org/communities/single-cell-omics) where you can also join us!
 
 <!--
 [contributing]({{site.baseurl}}/pages/about/contributing)
@@ -33,7 +35,7 @@ Some text in *italics*
 
 -->
 
-### Community co-leads:
+### Community co-leads
 
 - Eija Korpelainen (ELIXIR-FI)
 - George Gavriilidis (ELIXIR-GR)
@@ -41,7 +43,7 @@ Some text in *italics*
 
 You can contact us by emailing single-cell-omics-coleads@elixir-europe.org
 
-### Scientific Officer:
+### Scientific Officer
 
 - Katharina Heil (ELIXIR-Hub)
 
