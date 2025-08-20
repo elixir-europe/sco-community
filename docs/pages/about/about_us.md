@@ -12,6 +12,7 @@ group: About
 
 Below you can find a list of Datasets in single-cell and spatial omics.
 
+<!--
 [contributing]({{site.baseurl}}/pages/about/contributing)
 
 ## Title 2
@@ -30,20 +31,22 @@ Some text in **bold**
 
 Some text in *italics*
 
+-->
 
+### Community co-leads:
 
-### Leadership:
+- Eija Korpelainen (ELIXIR-FI)
+- George Gavriilidis (ELIXIR-GR)
+- Raffaele Calogero (ELIXIR-IT)
 
-- **Paulo Czarnewski (ELIXIR-SE)**: paulo.czarnewski@scilifelab.se
-- **Naveed Ishaque (ELIXIR-DE)**: naveed.ishaque@bih-charite.de
-- **Eija Korpelainen (ELIXIR-FI)**: eija.korpelainen@csc.fi
+You can contact us by emailing single-cell-omics-coleads@elixir-europe.org
 
 ### Scientific Officer:
 
-- Clare Garrard (ELIXIR-Hub)
+- Katharina Heil (ELIXIR-Hub)
 
 
-
+<!--
 ``` bash
 git add .
 for i in 1..10
@@ -51,3 +54,4 @@ do
   echo $i
 done
 ```
+-->
