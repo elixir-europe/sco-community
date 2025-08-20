@@ -10,7 +10,7 @@ group: About
 
 # ELIXIR Single-Cell Omics Community
 
-Please find an overview at the [ELIXIR Community page](https://elixir-europe.org/communities/single-cell-omics) where you can also join us.
+Please find an overview at the [ELIXIR Community site](https://elixir-europe.org/communities/single-cell-omics) where you can also join us.
 
 <!--
 [contributing]({{site.baseurl}}/pages/about/contributing)
