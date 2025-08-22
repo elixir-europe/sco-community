@@ -35,8 +35,8 @@ menu:
         url: pages/about/about_us
       - title: Join us
         url: pages/about/join_us
-      - title: Contributing
-        url: pages/about/contributing
+  #    - title: Contributing
+  #      url: pages/about/contributing
 
   - title: TRAINING
     url: pages/training/index
