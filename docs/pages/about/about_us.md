@@ -47,6 +47,20 @@ You can contact us by emailing single-cell-omics-coleads@elixir-europe.org
 
 - Katharina Heil (ELIXIR-Hub)
 
+## How to join the Community
+
+### Mailing list
+
+Please go to the [ELIXIR Single-Cell Omics Community overview page](https://elixir-europe.org/communities/single-cell-omics) and click "Join this Community". 
+You will be asked to authenticate using the LifeScience Login in order to log in to the ELIXIR intranet.
+
+### ELIXIR Slack
+
+Please join the channel community_singlecellomics
+
+### Email us
+
+You can reach the Community co-leads by emailing single-cell-omics-coleads@elixir-europe.org
 
 <!--
 ``` bash
