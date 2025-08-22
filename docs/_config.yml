@@ -62,11 +62,11 @@ menu:
     #   - title: Submenu 2
     #     url: training
 
-  - title: NEWS
-    url: pages/news/index
-    submenu:
-      - title: Events
-        url: pages/news/index
+  #- title: NEWS
+  #  url: pages/news/index
+  #  submenu:
+  #    - title: Events
+  #      url: pages/news/index
       # - title: Funding
       #   url: pages/news/funding
 
