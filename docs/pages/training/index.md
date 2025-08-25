@@ -35,7 +35,7 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 
 <br>
 
-- [Spatial Omics Data Analysis Course](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html, *21-24 Jan 2025, Lausanne, Switzerland*
+- [Spatial Omics Data Analysis Course](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html), *21-24 Jan 2025, Lausanne, Switzerland*
 - [Workshop for Single-Cell Omics data analysis trainers](https://docs.google.com/document/d/1V98zIpkVrpSVndn41Kox4x64XIk42fAh4dJnWEvzXlw/edit?tab=t.0), *21-23 Mar 2023, Geneva, Switzerland*
 - [Workshop for Single-Cell RNA-seq data analysis trainers](https://ssl.eventilla.com/event/xP1QM), *30 Nov 2021, online*
 
