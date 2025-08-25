@@ -15,16 +15,16 @@ group: Training
 
 ## Our activities
 
-New measurement technologies and analysis methods keep coming and consequently the need for data analysis training is acute. Our efforts to plug the skills gap in single-cell and spatial omics analysis include:
-- organizing workshops for single-cell and spatial omics data analysis trainers. This allows sharing experiences on topics, training methods, data sets etc.
-- conducting training gap surveys to understand what topics are taught and where is the rising need. We also collect links to training materials and data sets.
-- providing a collection of training materials
-- organizing courses which are recorded
+New measurement technologies and analysis methods keep coming and consequently the need for data analysis training is acute. In order to plug the skills gap in single-cell and spatial omics analysis we organize
+- international data analysis courses in single-cell and spatial omics. All the training materials including lecture videos are available, making it easier for the participants to replicate the course in their own country afterwards
+- workshops for single-cell and spatial omics data analysis trainers. This allows sharing experiences on topics, training methods, data sets etc.
+- training gap surveys to understand what topics are taught and where is the rising need. We also collect links to training materials and data sets.
+
 
 
 <br>
 As described in our white paper[^1], we aim at
-_"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles. We will collaborate with ELIXIR’s Training Portal TeSS to establish a well-curated SCO training portal, listing national and international training providers, web resources and upcoming training events."_ 
+_"Upskilling scientists in SCO data analysis and standards lies at the heart of the ELIXIR SCO Community, and particular efforts will be made to make the training scalable and FAIR in coordination with the ELIXIR Training platform. The SCO Community will ensure that training materials and expertise are shared efficiently and following FAIR and open research principles."_ 
 
 <br>
 <br>
@@ -35,19 +35,17 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 
 <br>
 
-**Course Spatial transcriptomics data analysis**
-- *Lausanne, Switzerland*
-- *21-24 Jan 2025*
+**Course Spatial Omics Data Analysis**
+- [Schedule and materials](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html)
+- *21-24 Jan 2025, Lausanne, Switzerland*
 
 **Workshop for Single-Cell Omics data analysis trainers**
-- [Go to event page]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
-- *Geneva, Switzerland*
-- *21-23 Mar 2023*
+- [Schedule and materials]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
+- *21-23 Mar 2023, Geneva, Switzerland*
 
 **Workshop for Single-Cell RNA-seq data analysis trainers**
-- [Go to event page](https://ssl.eventilla.com/event/xP1QM)
-- *online*
-- *30 Nov 2021*
+- [Schedule and materials](https://ssl.eventilla.com/event/xP1QM)
+- *30 Nov 2021, online*
 
 <br>
 
@@ -56,7 +54,7 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 
 ## Training materials
 
-Below you can find a list of course instances collected by the recent training survey conducted by the ELIXIR Single-Cell Omics Community. These courses have materials inc. slides and exercises available online, some of them provide recorded lectures too.
+Below you can find a list of courses collected by our training survey. These courses have materials inc. slides and exercises available online, some of them provide recorded lectures too.
 
 The complete dataset is available [here](https://github.com/NBISweden/elixir-sco-training-survey/blob/main/data/Training_survey_parsed_courses.xlsx).
 
@@ -66,10 +64,11 @@ The complete dataset is available [here](https://github.com/NBISweden/elixir-sco
 
 |Course name                                                                                                                |Url   |Course year                      |Duration |Single cell omics technologies                    |Spatial omics technologies                                                                                                                            |
 |:--------------------------------------------------------------------------------------------------------------------------|:-----|:--------------------------------|:--------|:-------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|Single-cell RNA-seq data analysis using Chipster                                                                           |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#single-cell)|2024                             |2 days   |scRNAseq                                          |                                                                                                                                                      |
-|Visium data analysis with Chipster                                                                                         |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#visium)|2022                             |1 day    |                                                  |Spot based SRT e.g. 10X Visium                                                                                                                       |
+|Spatial Omics data Analysis|[Link](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html)|2025|4 days||Spot based SRT e.g. 10X Visium, Image based SRT e.g. 10X Xenium ISS|
+|Single-cell RNA-seq data analysis using Chipster                                                                           |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#single-cell)|2025                             |2 days   |scRNAseq                                          |                                                                                                                                                      |
+|Visium data analysis with Chipster                                                                                         |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#visium)|2025                             |1 day    |                                                  |Spot based SRT e.g. 10X Visium                                                                                                                       |
 |MOOC Single-cell RNA-seq data analysis with Chipster                                                                       |[Link](https://e-learn.csc.fi/course/view.php?id=17)|2024                             |3 days   |scRNAseq                                          |                                                                                                                                                      |
-|Single-cell RNA-seq with R                                                                                                 |[Link](https://version.helsinki.fi/csc-courses/scrnaseq-with-r-2023/-/blob/main/README.md)|2023                             |1 day    |scRNAseq                                          |                                                                                                                                                      |
+|Single-cell RNA-seq with R                                                                                                 |[Link](https://version.helsinki.fi/csc-courses/scrnaseq-with-r-2025)|2025                             |2 days    |scRNAseq                                          |                                                                                                                                                      |
 |SincellTE: Single-Cell : Transcriptomics, Spatial and Multi-Omics                                                          |[Link](https://www.france-bioinformatique.fr/formation/single-cell-2022/)|2022                             |5 days   |scRNAseq, scATACseq, Multi modal Omics            |Spot based SRT e.g. 10X Visium                                                                                                                       |
 |Single Cell Galaxy Training                                                                                                |[Link](https://training.galaxyproject.org/training-material/topics/single-cell/)|2021, 2023                       |         |scRNAseq, scATACseq                               |                                                                                                                                                      |
 |Whole transcriptome data analysis                                                                                          |[Link](https://www.embl.org/about/info/course-and-conference-office/events/dat23-01/)|2023                             |5 days   |scRNAseq                                          |Spot based SRT e.g. 10X Visium                                                                                                                       |
