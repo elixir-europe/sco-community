@@ -16,8 +16,8 @@ group: Training
 ## Our activities
 
 New measurement technologies and analysis methods keep coming and consequently the need for data analysis training is acute. In order to plug the skills gap in single-cell and spatial omics analysis we organize
-- international data analysis courses in single-cell and spatial omics. All the training materials including lecture videos are available, making it easier for the participants to replicate the course in their own country afterwards
-- workshops for single-cell and spatial omics data analysis trainers. This allows sharing experiences on topics, training methods, data sets etc.
+- international data analysis courses in single-cell and spatial omics. All the training materials including lecture videos are available, making it easier for the participants to replicate the course in their own country afterwards ([example](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html)).
+- workshops for single-cell and spatial omics data analysis trainers. This allows sharing experiences on topics, training methods, data sets etc ([example](https://docs.google.com/document/d/1V98zIpkVrpSVndn41Kox4x64XIk42fAh4dJnWEvzXlw/edit?tab=t.0)).
 - training gap surveys to understand what topics are taught and where is the rising need. We also collect links to training materials and data sets.
 
 
@@ -40,7 +40,7 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 - *21-24 Jan 2025, Lausanne, Switzerland*
 
 **Workshop for Single-Cell Omics data analysis trainers**
-- [Schedule and materials]({{site.baseurl}}/pages/news/events/20230321_SCO_trainer_workshop.html)
+- [Schedule and materials](https://docs.google.com/document/d/1V98zIpkVrpSVndn41Kox4x64XIk42fAh4dJnWEvzXlw/edit?tab=t.0)
 - *21-23 Mar 2023, Geneva, Switzerland*
 
 **Workshop for Single-Cell RNA-seq data analysis trainers**
@@ -64,7 +64,7 @@ The complete dataset is available [here](https://github.com/NBISweden/elixir-sco
 
 |Course name                                                                                                                |Url   |Course year                      |Duration |Single cell omics technologies                    |Spatial omics technologies                                                                                                                            |
 |:--------------------------------------------------------------------------------------------------------------------------|:-----|:--------------------------------|:--------|:-------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
-|Spatial Omics data Analysis|[Link](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html)|2025|4 days||Spot based SRT e.g. 10X Visium, Image based SRT e.g. 10X Xenium ISS|
+|Spatial Omics Data Analysis|[Link](https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/schedule.html)|2025|4 days||Spot based SRT e.g. 10X Visium, Image based SRT e.g. 10X Xenium ISS|
 |Single-cell RNA-seq data analysis using Chipster                                                                           |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#single-cell)|2025                             |2 days   |scRNAseq                                          |                                                                                                                                                      |
 |Visium data analysis with Chipster                                                                                         |[Link](https://chipster.2.rahtiapp.fi/manual/courses.html#visium)|2025                             |1 day    |                                                  |Spot based SRT e.g. 10X Visium                                                                                                                       |
 |MOOC Single-cell RNA-seq data analysis with Chipster                                                                       |[Link](https://e-learn.csc.fi/course/view.php?id=17)|2024                             |3 days   |scRNAseq                                          |                                                                                                                                                      |
