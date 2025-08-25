@@ -54,9 +54,9 @@ _"Upskilling scientists in SCO data analysis and standards lies at the heart of 
 
 ## Training materials
 
-Below you can find a list of courses collected by our training survey. These courses have materials inc. slides and exercises available online, some of them provide recorded lectures too.
+Please find below a list of courses which have training materials inc. slides and exercises available online, some of them provide recorded lectures too. The courses were collected by our training gap survey and the list is updated subsequently.
 
-The complete dataset is available [here](https://github.com/NBISweden/elixir-sco-training-survey/blob/main/data/Training_survey_parsed_courses.xlsx).
+<!--The complete dataset is available [here](https://github.com/NBISweden/elixir-sco-training-survey/blob/main/data/Training_survey_parsed_courses.xlsx).-->
 
 <br>
 
