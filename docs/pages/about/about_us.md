@@ -37,9 +37,9 @@ Some text in *italics*
 
 ### Community co-leads
 
-- Eija Korpelainen (ELIXIR-FI)
-- George Gavriilidis (ELIXIR-GR)
-- Raffaele Calogero (ELIXIR-IT)
+- Frederic Bastian (ELIXIR-CH)
+- George Gavriilidis (ELIXIR-GR, ELIXIR-DE)
+- Sabrina Jagot (ELIXIR-FR)
 
 You can contact us by emailing single-cell-omics-coleads@elixir-europe.org
 
